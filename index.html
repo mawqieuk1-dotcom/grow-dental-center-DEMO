@@ -1,0 +1,3115 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Grow Dental Center - أفضل عيادة أسنان في الكويت. تقويم الأسنان، زراعة، تبييض، وجميع خدمات طب الأسنان التجميلي والعلاجي. تقييم 4.6 نجوم على Google Maps." />
+    <meta name="keywords" content="عيادة أسنان, تقويم الأسنان, زراعة الأسنان, تبييض الأسنان, طب الأسنان التجميلي, Grow Dental Center, برج كيبكو, الكويت" />
+    <meta property="og:title" content="Grow Dental Center - عيادة أسنان راقية في الكويت" />
+    <meta property="og:description" content="أفضل عيادة أسنان في برج كيبكو - تقييم 4.6 نجوم من 12 مراجعة على Google Maps." />
+    <meta property="og:type" content="website" />
+    <meta name="theme-color" content="#0A2E4D" />
+
+    <title>Grow Dental Center | عيادة أسنان راقية - نموذج تجريبي</title>
+
+    <!-- Google Fonts - Cairo Arabic -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;800;900&display=swap" rel="stylesheet" />
+
+    <!-- Font Awesome 6 (Free) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='45' fill='%230A2E4D' stroke='%23D4AF37' stroke-width='2'/><path d='M35 40 L45 40 L45 30 L55 30 L55 40 L65 40 L65 50 L55 50 L55 60 L45 60 L45 50 L35 50 Z' fill='%23D4AF37' opacity='0.9'/><circle cx='50' cy='35' r='5' fill='white' opacity='0.9'/><path d='M30 70 Q40 55 50 70 Q60 55 70 70' stroke='%23D4AF37' stroke-width='3' fill='none' stroke-linecap='round'/><circle cx='40' cy='70' r='3' fill='white' opacity='0.7'/><circle cx='60' cy='70' r='3' fill='white' opacity='0.7'/></svg>">
+
+    <style>
+        /* ============================================================
+                   CSS - التصميم المحسن بالكامل
+                   ============================================================ */
+
+        /* ---------- متغيرات CSS للـ Dark Mode ---------- */
+        :root {
+            /* الألوان الأساسية */
+            --primary-dark: #0A2E4D;
+            --primary-teal: #1ABC9C;
+            --primary-teal-dark: #16A085;
+            --gold: #D4AF37;
+            --gold-light: #E8C84A;
+            --white: #FFFFFF;
+            --light-bg: #F8F9FA;
+            --gray-text: #6C757D;
+            --dark-text: #1A1A2E;
+            --shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+            --shadow-hover: 0 15px 40px rgba(0, 0, 0, 0.15);
+            --border-radius: 16px;
+            --transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+            --font-main: 'Cairo', sans-serif;
+
+            /* ألوان الخلفية والنصوص للـ Dark Mode */
+            --bg-primary: #FFFFFF;
+            --bg-secondary: #F8F9FA;
+            --bg-card: #FFFFFF;
+            --text-primary: #1A1A2E;
+            --text-secondary: #6C757D;
+            --border-color: #E8ECF0;
+            --hero-bg: linear-gradient(135deg, #F0F9FF 0%, #E8F4F8 100%);
+            --navbar-bg: rgba(255, 255, 255, 0.96);
+            --input-bg: #FFFFFF;
+            --shadow-color: rgba(0, 0, 0, 0.08);
+        }
+
+        /* ---------- الوضع الليلي (Dark Mode) ---------- */
+        body.dark-mode {
+            --bg-primary: #121212;
+            --bg-secondary: #1A2A3A;
+            --bg-card: #1E2A3A;
+            --text-primary: #E0E0E0;
+            --text-secondary: #A0AAB8;
+            --border-color: #2A3A4A;
+            --hero-bg: linear-gradient(135deg, #1A2A3A 0%, #0F1E2E 100%);
+            --navbar-bg: rgba(18, 18, 18, 0.96);
+            --input-bg: #2A3A4A;
+            --shadow-color: rgba(0, 0, 0, 0.3);
+            --shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+            --shadow-hover: 0 15px 40px rgba(0, 0, 0, 0.4);
+        }
+
+        /* ---------- إعادة ضبط عامة ---------- */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        /* منع تحديد النص */
+        body {
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            font-family: var(--font-main);
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.7;
+            overflow-x: hidden;
+            transition: background 0.4s ease, color 0.4s ease;
+        }
+
+        /* منع السحب على الصور */
+        img {
+            -webkit-user-drag: none;
+            user-drag: none;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* ============================================================
+                   BANNER - نموذج تجريبي
+                   ============================================================ */
+        .demo-banner {
+            background: linear-gradient(135deg, #0A2E4D, #1ABC9C);
+            color: white;
+            padding: 12px 20px;
+            text-align: center;
+            font-size: 0.95rem;
+            font-weight: 600;
+            position: relative;
+            z-index: 1001;
+            border-bottom: 3px solid var(--gold);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+
+        .demo-banner .demo-icon {
+            font-size: 1.2rem;
+            animation: pulse-banner 1.5s infinite;
+        }
+
+        @keyframes pulse-banner {
+            0%,
+            100% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.2);
+            }
+        }
+
+        .demo-banner .whatsapp-btn {
+            background: #25D366;
+            color: white;
+            padding: 6px 18px;
+            border-radius: 50px;
+            font-size: 0.85rem;
+            font-weight: 700;
+            transition: var(--transition);
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            border: none;
+            cursor: pointer;
+            
+        }
+
+        .demo-banner .whatsapp-btn:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 15px rgba(37, 211, 102, 0.4);
+        }
+
+        .demo-banner .close-banner {
+            background: rgba(255, 255, 255, 0.15);
+            border: none;
+            color: white;
+            width: 28px;
+            height: 28px;
+            border-radius: 50%;
+            cursor: pointer;
+            font-size: 1rem;
+            transition: var(--transition);
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .demo-banner .close-banner:hover {
+            background: rgba(255, 255, 255, 0.3);
+            transform: rotate(90deg);
+        }
+
+        /* ============================================================
+                   SVG Logo
+                   ============================================================ */
+        .logo-svg {
+            width: 48px;
+            height: 48px;
+            display: inline-block;
+            flex-shrink: 0;
+        }
+
+        .logo-svg svg {
+            width: 100%;
+            height: 100%;
+            fill: none;
+        }
+
+        /* ---------- أزرار عامة ---------- */
+        .btn-primary {
+            display: inline-block;
+            background: var(--primary-teal);
+            color: var(--white);
+            padding: 14px 36px;
+            border-radius: 50px;
+            font-weight: 700;
+            font-size: 1rem;
+            border: none;
+            cursor: pointer;
+            transition: var(--transition);
+            box-shadow: 0 4px 15px rgba(26, 188, 156, 0.35);
+            font-family: var(--font-main);
+        }
+
+        .btn-primary:hover {
+            background: var(--primary-teal-dark);
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(26, 188, 156, 0.45);
+        }
+
+        .btn-gold {
+            display: inline-block;
+            background: var(--gold);
+            color: var(--white);
+            padding: 14px 36px;
+            border-radius: 50px;
+            font-weight: 700;
+            font-size: 1rem;
+            border: none;
+            cursor: pointer;
+            transition: var(--transition);
+            box-shadow: 0 4px 15px rgba(212, 175, 55, 0.35);
+            font-family: var(--font-main);
+        }
+
+        .btn-gold:hover {
+            background: var(--gold-light);
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(212, 175, 55, 0.45);
+        }
+
+        .btn-outline {
+            display: inline-block;
+            background: transparent;
+            color: var(--primary-teal);
+            padding: 12px 32px;
+            border-radius: 50px;
+            font-weight: 700;
+            font-size: 1rem;
+            border: 2px solid var(--primary-teal);
+            cursor: pointer;
+            transition: var(--transition);
+            font-family: var(--font-main);
+        }
+
+        .btn-outline:hover {
+            background: var(--primary-teal);
+            color: var(--white);
+            transform: translateY(-2px);
+        }
+
+        /* ---------- شريط التنقل (Navbar) ---------- */
+        .navbar {
+            position: static;
+            z-index: 1000;
+            padding: 14px 0;
+            background: var(--navbar-bg);
+            backdrop-filter: blur(12px);
+            box-shadow: 0 2px 20px var(--shadow-color);
+            transition: var(--transition);
+        }
+
+        .navbar.scrolled {
+            padding: 10px 0;
+            box-shadow: 0 4px 30px var(--shadow-color);
+        }
+
+        .navbar .container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .navbar .logo {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 1.4rem;
+            font-weight: 900;
+            color: var(--primary-dark);
+        }
+
+        .navbar .logo span {
+            color: var(--primary-teal);
+        }
+
+        .nav-links {
+            display: flex;
+            align-items: center;
+            gap: 24px;
+            font-weight: 600;
+            font-size: 0.9rem;
+        }
+
+        .nav-links a {
+            color: var(--text-primary);
+            transition: var(--transition);
+            position: relative;
+            padding-bottom: 4px;
+        }
+
+        .nav-links a::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            width: 0;
+            height: 3px;
+            background: var(--primary-teal);
+            transition: var(--transition);
+            border-radius: 2px;
+        }
+
+        .nav-links a:hover::after,
+        .nav-links a.active::after {
+            width: 100%;
+        }
+
+        .nav-links a:hover {
+            color: var(--primary-teal);
+        }
+
+        .nav-links .btn-nav-book {
+            background: var(--gold);
+            color: var(--white);
+            padding: 8px 20px;
+            border-radius: 50px;
+            font-weight: 700;
+            transition: var(--transition);
+        }
+
+        .nav-links .btn-nav-book:hover {
+            background: var(--gold-light);
+            transform: scale(1.05);
+        }
+
+        .nav-links .btn-nav-book::after {
+            display: none;
+        }
+
+        /* زر القائمة (هامبرغر) */
+        .hamburger {
+            display: none;
+            flex-direction: column;
+            gap: 6px;
+            cursor: pointer;
+            background: none;
+            border: none;
+            padding: 5px;
+        }
+
+        .hamburger span {
+            width: 28px;
+            height: 3px;
+            background: var(--text-primary);
+            border-radius: 3px;
+            transition: var(--transition);
+        }
+
+        .hamburger.active span:nth-child(1) {
+            transform: rotate(45deg) translate(6px, 6px);
+        }
+        .hamburger.active span:nth-child(2) {
+            opacity: 0;
+        }
+        .hamburger.active span:nth-child(3) {
+            transform: rotate(-45deg) translate(6px, -6px);
+        }
+
+        /* ---------- الأقسام العامة ---------- */
+        section {
+            padding: 80px 0;
+        }
+
+        .section-title {
+            font-size: 2.4rem;
+            font-weight: 800;
+            color: var(--primary-dark);
+            margin-bottom: 12px;
+            position: relative;
+        }
+
+        body.dark-mode .section-title {
+            color: var(--text-primary);
+        }
+
+        .section-title::after {
+            content: '';
+            display: block;
+            width: 60px;
+            height: 4px;
+            background: var(--gold);
+            border-radius: 3px;
+            margin-top: 8px;
+        }
+
+        .section-subtitle {
+            color: var(--text-secondary);
+            font-size: 1.1rem;
+            margin-bottom: 40px;
+        }
+
+        /* ---------- الصفحة الرئيسية (Hero) ---------- */
+        .hero {
+            padding-top: 140px;
+            padding-bottom: 80px;
+            background: var(--hero-bg);
+            position: relative;
+            overflow: hidden;
+            transition: background 0.4s ease;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: -30%;
+            right: -10%;
+            width: 600px;
+            height: 600px;
+            background: radial-gradient(circle, rgba(26, 188, 156, 0.08) 0%, transparent 70%);
+            border-radius: 50%;
+        }
+
+        .hero .container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 50px;
+            align-items: center;
+            position: relative;
+            z-index: 2;
+        }
+
+        .hero-content h1 {
+            font-size: 3rem;
+            font-weight: 900;
+            color: var(--primary-dark);
+            line-height: 1.2;
+            margin-bottom: 16px;
+        }
+
+        body.dark-mode .hero-content h1 {
+            color: var(--text-primary);
+        }
+
+        .hero-content h1 span {
+            color: var(--primary-teal);
+        }
+
+        .hero-content h1 .gold-text {
+            color: var(--gold);
+        }
+
+        .hero-content p {
+            font-size: 1.1rem;
+            color: var(--text-secondary);
+            margin-bottom: 24px;
+            max-width: 90%;
+        }
+
+        .hero-rating {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            background: var(--bg-card);
+            padding: 14px 20px;
+            border-radius: 12px;
+            box-shadow: var(--shadow);
+            margin-bottom: 24px;
+            flex-wrap: wrap;
+            transition: background 0.4s ease;
+        }
+
+        .hero-rating .stars {
+            color: var(--gold);
+            font-size: 1.3rem;
+            letter-spacing: 2px;
+        }
+
+        .hero-rating .rating-text {
+            font-weight: 700;
+            color: var(--primary-dark);
+        }
+
+        body.dark-mode .hero-rating .rating-text {
+            color: var(--text-primary);
+        }
+
+        .hero-rating .rating-text small {
+            font-weight: 400;
+            color: var(--text-secondary);
+        }
+
+        .hero-rating .google-badge {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            background: #EA4335;
+            color: white;
+            padding: 4px 14px;
+            border-radius: 20px;
+            font-size: 0.75rem;
+            font-weight: 600;
+        }
+
+        .hero-buttons {
+            display: flex;
+            gap: 16px;
+            flex-wrap: wrap;
+        }
+
+        .hero-image {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .hero-image svg {
+            max-width: 100%;
+            height: auto;
+            border-radius: 24px;
+            box-shadow: 0 20px 60px var(--shadow-color);
+        }
+
+        /* ---------- تأثيرات الحركة المتقدمة ---------- */
+        .animate-on-scroll {
+            opacity: 0;
+            transform: translateY(40px);
+            transition: opacity 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94),
+                transform 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+        }
+
+        .animate-on-scroll.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .animate-on-scroll.slide-left {
+            transform: translateX(-40px);
+        }
+
+        .animate-on-scroll.slide-left.visible {
+            transform: translateX(0);
+        }
+
+        .animate-on-scroll.slide-right {
+            transform: translateX(40px);
+        }
+
+        .animate-on-scroll.slide-right.visible {
+            transform: translateX(0);
+        }
+
+        .animate-on-scroll.scale-up {
+            transform: scale(0.9);
+        }
+
+        .animate-on-scroll.scale-up.visible {
+            transform: scale(1);
+        }
+
+        /* تأخيرات مختلفة */
+        .delay-1 {
+            transition-delay: 0.1s;
+        }
+        .delay-2 {
+            transition-delay: 0.2s;
+        }
+        .delay-3 {
+            transition-delay: 0.3s;
+        }
+        .delay-4 {
+            transition-delay: 0.4s;
+        }
+        .delay-5 {
+            transition-delay: 0.5s;
+        }
+
+        /* ---------- بطاقات الخدمات السريعة ---------- */
+        .quick-services {
+            padding: 40px 0 60px;
+            background: var(--bg-primary);
+            transition: background 0.4s ease;
+        }
+
+        .quick-services .grid-3 {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+            margin-top: 30px;
+        }
+
+        .service-card-mini {
+            background: var(--bg-card);
+            padding: 28px 20px;
+            border-radius: var(--border-radius);
+            text-align: center;
+            transition: var(--transition);
+            border: 1px solid var(--border-color);
+            box-shadow: var(--shadow);
+        }
+
+        .service-card-mini:hover {
+            transform: translateY(-8px);
+            box-shadow: var(--shadow-hover);
+        }
+
+        .service-card-mini i {
+            font-size: 2.6rem;
+            color: var(--primary-teal);
+            margin-bottom: 14px;
+        }
+
+        .service-card-mini h3 {
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--primary-dark);
+            margin-bottom: 6px;
+        }
+
+        body.dark-mode .service-card-mini h3 {
+            color: var(--text-primary);
+        }
+
+        .service-card-mini p {
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+        }
+
+        /* ---------- قسم التقييمات (Reviews) ---------- */
+        .reviews {
+            background: var(--bg-secondary);
+            transition: background 0.4s ease;
+        }
+
+        .reviews-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+            margin-top: 30px;
+        }
+
+        .review-card {
+            background: var(--bg-card);
+            padding: 24px;
+            border-radius: var(--border-radius);
+            box-shadow: var(--shadow);
+            transition: var(--transition);
+            border-right: 4px solid var(--gold);
+        }
+
+        .review-card:hover {
+            transform: translateY(-5px);
+            box-shadow: var(--shadow-hover);
+        }
+
+        .review-card .reviewer {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 10px;
+        }
+
+        .review-card .reviewer img {
+            width: 44px;
+            height: 44px;
+            border-radius: 50%;
+            object-fit: cover;
+            background: var(--primary-teal);
+        }
+
+        .review-card .reviewer .name {
+            font-weight: 700;
+            font-size: 0.95rem;
+            color: var(--primary-dark);
+        }
+
+        body.dark-mode .review-card .reviewer .name {
+            color: var(--text-primary);
+        }
+
+        .review-card .reviewer .role {
+            font-size: 0.75rem;
+            color: var(--text-secondary);
+        }
+
+        .review-card .stars-small {
+            color: var(--gold);
+            font-size: 0.9rem;
+            margin-bottom: 6px;
+        }
+
+        .review-card .review-text {
+            color: var(--text-primary);
+            font-size: 0.9rem;
+            line-height: 1.8;
+        }
+
+        .review-card .review-date {
+            font-size: 0.75rem;
+            color: var(--text-secondary);
+            margin-top: 8px;
+        }
+
+        .review-card .clinic-response {
+            background: rgba(26, 188, 156, 0.08);
+            padding: 10px 14px;
+            border-radius: 10px;
+            margin-top: 10px;
+            font-size: 0.85rem;
+            border-right: 3px solid var(--primary-teal);
+        }
+
+        .review-card .clinic-response strong {
+            color: var(--primary-dark);
+        }
+
+        body.dark-mode .review-card .clinic-response {
+            background: rgba(26, 188, 156, 0.15);
+        }
+
+        body.dark-mode .review-card .clinic-response strong {
+            color: var(--text-primary);
+        }
+
+        /* ---------- صفحة عن العيادة ---------- */
+        .about-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 50px;
+            align-items: center;
+        }
+
+        .about-image img {
+            width: 100%;
+            border-radius: var(--border-radius);
+            box-shadow: var(--shadow);
+        }
+
+        .about-stats {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 16px;
+            margin-top: 24px;
+        }
+
+        .stat-item {
+            text-align: center;
+            padding: 16px;
+            background: var(--bg-card);
+            border-radius: 12px;
+            box-shadow: var(--shadow);
+            transition: background 0.4s ease;
+        }
+
+        .stat-item .number {
+            font-size: 1.8rem;
+            font-weight: 900;
+            color: var(--primary-teal);
+            display: block;
+        }
+
+        .stat-item .label {
+            font-size: 0.8rem;
+            color: var(--text-secondary);
+            font-weight: 600;
+        }
+
+        /* ---------- صفحة الخدمات ---------- */
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 25px;
+            margin-top: 30px;
+        }
+
+        .service-card-full {
+            background: var(--bg-card);
+            border-radius: var(--border-radius);
+            padding: 28px 20px;
+            box-shadow: var(--shadow);
+            transition: var(--transition);
+            border: 1px solid var(--border-color);
+            text-align: center;
+        }
+
+        .service-card-full:hover {
+            transform: translateY(-8px);
+            box-shadow: var(--shadow-hover);
+        }
+
+        .service-card-full .icon-wrap {
+            width: 64px;
+            height: 64px;
+            background: rgba(26, 188, 156, 0.1);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 14px;
+            font-size: 1.8rem;
+            color: var(--primary-teal);
+        }
+
+        .service-card-full h3 {
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--primary-dark);
+            margin-bottom: 6px;
+        }
+
+        body.dark-mode .service-card-full h3 {
+            color: var(--text-primary);
+        }
+
+        .service-card-full p {
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+            margin-bottom: 14px;
+        }
+
+        .service-card-full .featured-badge {
+            display: inline-block;
+            background: var(--gold);
+            color: white;
+            font-size: 0.65rem;
+            font-weight: 700;
+            padding: 4px 12px;
+            border-radius: 20px;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+        }
+
+        /* ---------- صفحة التقويم ---------- */
+        .ortho-showcase {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            align-items: center;
+            margin-top: 30px;
+        }
+
+        .ortho-types {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 14px;
+            margin-top: 16px;
+        }
+
+        .ortho-type {
+            background: var(--bg-secondary);
+            padding: 14px;
+            border-radius: 12px;
+            text-align: center;
+            font-weight: 600;
+            font-size: 0.85rem;
+            border: 1px solid var(--border-color);
+            transition: background 0.4s ease;
+        }
+
+        .ortho-type i {
+            color: var(--primary-teal);
+            margin-left: 8px;
+        }
+
+        /* ---------- صفحة FAQ ---------- */
+        .faq-item {
+            background: var(--bg-card);
+            border-radius: var(--border-radius);
+            margin-bottom: 14px;
+            box-shadow: var(--shadow);
+            overflow: hidden;
+            transition: all 0.4s ease;
+            border: 1px solid var(--border-color);
+        }
+
+        .faq-item:hover {
+            box-shadow: var(--shadow-hover);
+        }
+
+        .faq-question {
+            padding: 16px 20px;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-weight: 700;
+            font-size: 1rem;
+            color: var(--primary-dark);
+            transition: background 0.3s ease;
+            background: var(--bg-card);
+            border: none;
+            width: 100%;
+            text-align: right;
+            font-family: var(--font-main);
+        }
+
+        body.dark-mode .faq-question {
+            color: var(--text-primary);
+            background: var(--bg-card);
+        }
+
+        .faq-question:hover {
+            background: rgba(26, 188, 156, 0.05);
+        }
+
+        .faq-question i {
+            transition: transform 0.3s ease;
+            color: var(--gold);
+            font-size: 1.1rem;
+        }
+
+        .faq-question.active i {
+            transform: rotate(180deg);
+        }
+
+        .faq-answer {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94),
+                padding 0.3s ease;
+            padding: 0 20px;
+            color: var(--text-secondary);
+            line-height: 1.8;
+        }
+
+        .faq-answer.open {
+            max-height: 400px;
+            padding: 0 20px 16px;
+        }
+
+        /* ---------- صفحة اتصل بنا ---------- */
+        .contact-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+        }
+
+        .contact-form input,
+        .contact-form textarea,
+        .contact-form select {
+            width: 100%;
+            padding: 12px 16px;
+            border: 2px solid var(--border-color);
+            border-radius: 12px;
+            font-size: 0.95rem;
+            font-family: var(--font-main);
+            transition: var(--transition);
+            background: var(--input-bg);
+            color: var(--text-primary);
+        }
+
+        .contact-form input:focus,
+        .contact-form textarea:focus,
+        .contact-form select:focus {
+            border-color: var(--primary-teal);
+            outline: none;
+            box-shadow: 0 0 0 4px rgba(26, 188, 156, 0.12);
+        }
+
+        .contact-form textarea {
+            min-height: 120px;
+            resize: vertical;
+        }
+
+        .contact-form .form-group {
+            margin-bottom: 16px;
+        }
+
+        .contact-form label {
+            font-weight: 600;
+            display: block;
+            margin-bottom: 4px;
+            color: var(--text-primary);
+        }
+
+        .contact-info-item {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            padding: 14px 0;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .contact-info-item i {
+            width: 40px;
+            height: 40px;
+            background: rgba(26, 188, 156, 0.1);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--primary-teal);
+            font-size: 1.1rem;
+        }
+
+        .contact-info-item .info-text {
+            font-weight: 600;
+        }
+
+        .contact-info-item .info-text small {
+            font-weight: 400;
+            color: var(--text-secondary);
+            display: block;
+        }
+
+        /* ---------- حالة المفتوح/مغلق ---------- */
+        .status-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 6px 16px;
+            border-radius: 50px;
+            font-weight: 700;
+            font-size: 0.85rem;
+        }
+
+        .status-badge.open {
+            background: #E8F8F5;
+            color: #1ABC9C;
+        }
+
+        .status-badge.closed {
+            background: #FDEDEC;
+            color: #E74C3C;
+        }
+
+        body.dark-mode .status-badge.open {
+            background: rgba(26, 188, 156, 0.2);
+        }
+
+        body.dark-mode .status-badge.closed {
+            background: rgba(231, 76, 60, 0.2);
+        }
+
+        .status-badge .dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            display: inline-block;
+        }
+
+        .status-badge.open .dot {
+            background: #1ABC9C;
+        }
+        .status-badge.closed .dot {
+            background: #E74C3C;
+        }
+
+        /* ---------- نموذج الحجز المحسن ---------- */
+        .booking-form {
+            background: var(--bg-card);
+            padding: 32px;
+            border-radius: var(--border-radius);
+            box-shadow: var(--shadow);
+            max-width: 700px;
+            margin: 0 auto;
+            transition: all 0.4s ease;
+        }
+
+        .booking-form .form-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 16px;
+        }
+
+        .booking-form .form-group {
+            margin-bottom: 16px;
+        }
+
+        .booking-form label {
+            display: block;
+            font-weight: 600;
+            margin-bottom: 4px;
+            color: var(--text-primary);
+        }
+
+        .booking-form input,
+        .booking-form select,
+        .booking-form textarea {
+            width: 100%;
+            padding: 12px 16px;
+            border: 2px solid var(--border-color);
+            border-radius: 12px;
+            font-size: 0.95rem;
+            font-family: var(--font-main);
+            transition: var(--transition);
+            background: var(--input-bg);
+            color: var(--text-primary);
+        }
+
+        .booking-form input:focus,
+        .booking-form select:focus,
+        .booking-form textarea:focus {
+            border-color: var(--primary-teal);
+            outline: none;
+            box-shadow: 0 0 0 4px rgba(26, 188, 156, 0.12);
+        }
+
+        .booking-form input.error,
+        .booking-form select.error,
+        .booking-form textarea.error {
+            border-color: #E74C3C;
+            box-shadow: 0 0 0 4px rgba(231, 76, 60, 0.12);
+        }
+
+        .booking-form .error-message {
+            color: #E74C3C;
+            font-size: 0.8rem;
+            margin-top: 4px;
+            display: none;
+        }
+
+        .booking-form .error-message.show {
+            display: block;
+        }
+
+        .booking-form .validation-success {
+            border-color: #27AE60 !important;
+        }
+
+        .booking-form .form-hint {
+            font-size: 0.8rem;
+            color: var(--text-secondary);
+            margin-top: 4px;
+        }
+
+        .booking-form textarea {
+            min-height: 80px;
+            resize: vertical;
+        }
+
+        /* ---------- خريطة ---------- */
+        .map-container {
+            border-radius: var(--border-radius);
+            overflow: hidden;
+            box-shadow: var(--shadow);
+            margin-top: 30px;
+        }
+
+        .map-container iframe {
+            width: 100%;
+            height: 350px;
+            border: none;
+        }
+
+        /* ---------- زر واتساب عائم ---------- */
+        .whatsapp-float {
+            position: fixed;
+            bottom: 30px;
+            left: 30px;
+            z-index: 999;
+            background: #25D366;
+            color: white;
+            width: 58px;
+            height: 58px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.8rem;
+            box-shadow: 0 4px 20px rgba(37, 211, 102, 0.4);
+            transition: var(--transition);
+            animation: pulse-whatsapp 2s infinite;
+        }
+
+        .whatsapp-float:hover {
+            transform: scale(1.1);
+            box-shadow: 0 6px 30px rgba(37, 211, 102, 0.6);
+        }
+
+        @keyframes pulse-whatsapp {
+            0%,
+            100% {
+                box-shadow: 0 4px 20px rgba(37, 211, 102, 0.4);
+            }
+            50% {
+                box-shadow: 0 4px 40px rgba(37, 211, 102, 0.7);
+            }
+        }
+
+        /* ---------- زر العودة للأعلى ---------- */
+        .scroll-top {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            z-index: 999;
+            background: var(--primary-dark);
+            color: white;
+            width: 46px;
+            height: 46px;
+            border-radius: 50%;
+            border: none;
+            font-size: 1.2rem;
+            cursor: pointer;
+            box-shadow: var(--shadow);
+            transition: var(--transition);
+            opacity: 0;
+            visibility: hidden;
+            transform: translateY(20px);
+        }
+
+        .scroll-top.visible {
+            opacity: 1;
+            visibility: visible;
+            transform: translateY(0);
+        }
+
+        .scroll-top:hover {
+            background: var(--primary-teal);
+            transform: translateY(-4px);
+        }
+
+        /* ---------- التذييل (Footer) ---------- */
+        .footer {
+            background: var(--primary-dark);
+            color: rgba(255, 255, 255, 0.85);
+            padding: 50px 0 30px;
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 30px;
+            margin-bottom: 30px;
+        }
+
+        .footer h4 {
+            color: var(--white);
+            font-size: 1rem;
+            font-weight: 700;
+            margin-bottom: 14px;
+            position: relative;
+        }
+
+        .footer h4::after {
+            content: '';
+            display: block;
+            width: 30px;
+            height: 3px;
+            background: var(--gold);
+            border-radius: 2px;
+            margin-top: 4px;
+        }
+
+        .footer a {
+            color: rgba(255, 255, 255, 0.7);
+            transition: var(--transition);
+            display: block;
+            margin-bottom: 6px;
+            font-size: 0.9rem;
+        }
+
+        .footer a:hover {
+            color: var(--gold);
+            padding-right: 6px;
+        }
+
+        .footer .footer-bottom {
+            border-top: 1px solid rgba(255, 255, 255, 0.08);
+            padding-top: 20px;
+            text-align: center;
+            font-size: 0.85rem;
+            color: rgba(255, 255, 255, 0.5);
+        }
+
+        /* ---------- أداة التبديل بين الصفحات ---------- */
+        .page {
+            display: none;
+            animation: fadePage 0.5s ease;
+        }
+
+        .page.active {
+            display: block;
+        }
+
+        @keyframes fadePage {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* ---------- رسالة تأكيد الحجز ---------- */
+        .toast-message {
+            position: fixed;
+            top: 120px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: var(--primary-teal);
+            color: white;
+            padding: 14px 28px;
+            border-radius: 12px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+            z-index: 9999;
+            font-weight: 700;
+            font-size: 0.95rem;
+            display: none;
+            animation: slideDown 0.5s ease;
+            max-width: 90%;
+            text-align: center;
+        }
+
+        .toast-message.show {
+            display: block;
+        }
+
+        .toast-message.error {
+            background: #E74C3C;
+        }
+
+        @keyframes slideDown {
+            from {
+                transform: translateX(-50%) translateY(-30px);
+                opacity: 0;
+            }
+            to {
+                transform: translateX(-50%) translateY(0);
+                opacity: 1;
+            }
+        }
+
+        /* ---------- أزرار التبديل بين الصفحات في التذييل ---------- */
+        .footer .page-link {
+            cursor: pointer;
+        }
+
+        /* ---------- زر الوضع الليلي ---------- */
+        .dark-toggle {
+            background: none;
+            border: none;
+            font-size: 1.2rem;
+            cursor: pointer;
+            color: var(--text-primary);
+            transition: var(--transition);
+            padding: 4px 8px;
+        }
+
+        .dark-toggle:hover {
+            color: var(--gold);
+        }
+
+        /* ---------- تحسينات إضافية ---------- */
+        .text-gold {
+            color: var(--gold);
+        }
+
+        .text-teal {
+            color: var(--primary-teal);
+        }
+
+        .text-center {
+            text-align: center;
+        }
+
+        .mt-20 {
+            margin-top: 20px;
+        }
+        .mb-20 {
+            margin-bottom: 20px;
+        }
+
+        /* ---------- استجابة (Responsive) ---------- */
+        @media (max-width: 992px) {
+            .hero .container {
+                grid-template-columns: 1fr;
+                text-align: center;
+            }
+
+            .hero-content p {
+                max-width: 100%;
+            }
+
+            .hero-buttons {
+                justify-content: center;
+            }
+
+            .hero-rating {
+                justify-content: center;
+            }
+
+            .about-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .ortho-showcase {
+                grid-template-columns: 1fr;
+            }
+
+            .contact-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .navbar {
+                top: 50px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .hamburger {
+                display: flex;
+            }
+
+            .nav-links {
+                display: none;
+                width: 100%;
+                flex-direction: column;
+                padding: 16px 0;
+                gap: 12px;
+                align-items: center;
+            }
+
+            .nav-links.open {
+                display: flex;
+            }
+
+            .hero-content h1 {
+                font-size: 2rem;
+            }
+
+            .quick-services .grid-3 {
+                grid-template-columns: 1fr;
+            }
+
+            .about-stats {
+                grid-template-columns: 1fr 1fr;
+            }
+
+            .ortho-types {
+                grid-template-columns: 1fr 1fr;
+            }
+
+            .booking-form .form-row {
+                grid-template-columns: 1fr;
+            }
+
+            .section-title {
+                font-size: 1.6rem;
+            }
+
+            .footer-grid {
+                grid-template-columns: 1fr 1fr;
+            }
+
+            .demo-banner {
+                font-size: 0.8rem;
+                padding: 10px 14px;
+            }
+
+            .demo-banner .whatsapp-btn {
+                font-size: 0.75rem;
+                padding: 4px 12px;
+            }
+
+            .navbar {
+                top: 48px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .hero-content h1 {
+                font-size: 1.6rem;
+            }
+
+            .hero-rating {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .about-stats {
+                grid-template-columns: 1fr 1fr;
+                gap: 10px;
+            }
+
+            .stat-item .number {
+                font-size: 1.2rem;
+            }
+
+            .booking-form {
+                padding: 20px 14px;
+            }
+
+            .footer-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .whatsapp-float {
+                width: 48px;
+                height: 48px;
+                font-size: 1.4rem;
+                bottom: 16px;
+                left: 16px;
+            }
+
+            .scroll-top {
+                width: 40px;
+                height: 40px;
+                font-size: 1rem;
+                bottom: 16px;
+                right: 16px;
+            }
+
+            .demo-banner {
+                font-size: 0.7rem;
+                padding: 8px 10px;
+                flex-wrap: wrap;
+            }
+
+            .demo-banner .whatsapp-btn {
+                font-size: 0.7rem;
+                padding: 3px 10px;
+            }
+
+            .navbar {
+                top: 44px;
+            }
+
+            .hero {
+                padding-top: 120px;
+            }
+        }
+
+        /* منع التحديد والنسخ */
+        .no-select {
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- ============================================================
+    BANNER - نموذج تجريبي مع واتساب
+    ============================================================ -->
+    <div class="demo-banner" id="demoBanner">
+        <span class="demo-icon">🔬</span>
+        <span>
+            <strong>⚠️ هذا الموقع هو نموذج تجريبي</strong> — للتواصل لتطوير موقعك الخاص أو تعديل هذا النموذج
+        </span>
+        <a href="https://wa.me/966507652943" target="_blank" class="whatsapp-btn">
+            <i class="fab fa-whatsapp"></i> تواصل معي الآن
+        </a>
+        
+    </div>
+
+    <!-- ============================================================
+    رسالة تأكيد (Toast)
+    ============================================================ -->
+    <div id="toastMessage" class="toast-message">
+        <i class="fas fa-check-circle" style="margin-left: 10px;"></i>
+        <span id="toastText">تم حجز موعدك بنجاح! سنتصل بك قريباً.</span>
+    </div>
+
+    <!-- ============================================================
+    شريط التنقل (Navbar)
+    ============================================================ -->
+    <nav class="navbar" id="navbar" dir="ltr">
+        <div class="container">
+            <div class="logo">
+                <!-- SVG Logo مخصص للعيادة -->
+                <svg class="logo-svg" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="50" cy="50" r="45" fill="var(--primary-dark)" stroke="var(--gold)" stroke-width="2"/>
+                    <path d="M35 40 L45 40 L45 30 L55 30 L55 40 L65 40 L65 50 L55 50 L55 60 L45 60 L45 50 L35 50 Z"
+                    fill="var(--gold)" opacity="0.9"/>
+                    <circle cx="50" cy="35" r="5" fill="var(--white)" opacity="0.9"/>
+                    <path d="M30 70 Q40 55 50 70 Q60 55 70 70"
+                    stroke="var(--gold)" stroke-width="3" fill="none" stroke-linecap="round"/>
+                    <circle cx="40" cy="70" r="3" fill="var(--white)" opacity="0.7"/>
+                    <circle cx="60" cy="70" r="3" fill="var(--white)" opacity="0.7"/>
+                </svg>
+                Grow<span>Dental</span>
+            </div>
+
+            <button class="hamburger" id="hamburger" aria-label="القائمة">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#" class="active" data-page="home">الرئيسية</a></li>
+                <li><a href="#" data-page="about">عن العيادة</a></li>
+                <li><a href="#" data-page="services">الخدمات</a></li>
+                <li><a href="#" data-page="ortho">التقويم</a></li>
+                <li><a href="#" data-page="reviews">التقييمات</a></li>
+                <li><a href="#" data-page="faq">الأسئلة الشائعة</a></li>
+                <li><a href="#" data-page="contact">اتصل بنا</a></li>
+                <li>
+                    <button class="dark-toggle" id="darkToggle" aria-label="الوضع الليلي">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                </li>
+                <li><a href="#" data-page="booking" class="btn-nav-book">حجز موعد</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- ============================================================
+    الصفحة الرئيسية (Home)
+    ============================================================ -->
+    <section class="page active" id="page-home">
+        <!-- Hero -->
+        <div class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="animate-on-scroll slide-right">
+                        ابتسامتك <br />
+                        <span>صحتها</span> و<span class="gold-text">جمالها</span>
+                        <br />أولوية لدينا
+                    </h1>
+
+                    <p class="animate-on-scroll slide-right delay-1">
+                        في <strong>Grow Dental Center</strong> نقدم أحدث تقنيات طب الأسنان
+                        في بيئة مريحة وودودة، مع أفضل دكتور تقويم في الكويت.
+                    </p>
+
+                    <div class="hero-rating animate-on-scroll slide-right delay-2">
+                        <div class="stars">
+                            ★★★★★
+                        </div>
+                        <div class="rating-text">
+                            4.6 <small>من أصل 5</small>
+                        </div>
+                        <div style="font-size:0.85rem; color:var(--text-secondary);">
+                            <i class="fas fa-circle" style="font-size:0.4rem; vertical-align:middle; margin:0 6px;"></i>
+                            12 مراجعة على
+                        </div>
+                        <div class="google-badge">
+                            <i class="fab fa-google"></i> Google Maps
+                        </div>
+                    </div>
+
+                    <div class="hero-buttons animate-on-scroll slide-right delay-3">
+                        <a href="#" class="btn-primary" data-page="booking">
+                            <i class="fas fa-calendar-check"></i> احجز موعد الآن
+                        </a>
+                        <a href="#" class="btn-outline" data-page="services">
+                            استكشف خدماتنا
+                        </a>
+                    </div>
+
+                    <div style="margin-top:16px; display:flex; gap:10px; flex-wrap:wrap;" class="animate-on-scroll slide-right delay-4">
+                        <span class="status-badge closed" id="statusBadge">
+                            <span class="dot"></span>
+                            <span id="statusText">مغلق الآن</span>
+                        </span>
+                        <span style="font-size:0.85rem; color:var(--text-secondary);">
+                            <i class="fas fa-clock"></i> يفتح الساعة 10:00 صباحاً
+                        </span>
+                    </div>
+                </div>
+
+                <div class="hero-image animate-on-scroll slide-left delay-2">
+                    <!-- صورة SVG تعبيرية للعيادة -->
+                    <svg width="500" height="400" viewBox="0 0 500 400" xmlns="http://www.w3.org/2000/svg">
+                        <defs>
+                            <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" style="stop-color:#1ABC9C;stop-opacity:0.1" />
+                                <stop offset="100%" style="stop-color:#D4AF37;stop-opacity:0.05" />
+                            </linearGradient>
+                            <linearGradient id="toothGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+                                <stop offset="0%" style="stop-color:#FFFFFF" />
+                                <stop offset="100%" style="stop-color:#E8ECF0" />
+                            </linearGradient>
+                        </defs>
+
+                        <!-- خلفية -->
+                        <rect width="500" height="400" rx="20" fill="url(#bgGrad)" />
+
+                        <!-- أسنان كبيرة -->
+                        <g transform="translate(250, 180)">
+                            <!-- سن مركزي -->
+                            <path d="M-40 -60 L-30 -100 L30 -100 L40 -60 L35 -20 L25 30 L15 50 L5 60 L-5 60 L-15 50 L-25 30 L-35 -20 Z"
+                            fill="url(#toothGrad)" stroke="#D4AF37" stroke-width="2"/>
+                            <path d="M-15 -60 L-10 -80 L10 -80 L15 -60 L12 -20 L8 20 L5 40 L0 45 L-5 40 L-8 20 L-12 -20 Z"
+                            fill="white" opacity="0.8"/>
+
+                            <!-- سن أيسر -->
+                            <path d="M-90 -40 L-85 -70 L-65 -80 L-55 -60 L-50 -20 L-45 20 L-40 40 L-35 50 L-45 50 L-55 40 L-65 20 L-75 -10 Z"
+                            fill="url(#toothGrad)" stroke="#D4AF37" stroke-width="2" opacity="0.7"/>
+                            <path d="M-75 -30 L-72 -50 L-62 -55 L-58 -40 L-55 -10 L-50 15 L-48 30 L-45 35 L-52 35 L-58 25 L-65 10 L-72 -10 Z"
+                            fill="white" opacity="0.7"/>
+
+                            <!-- سن أيمن -->
+                            <path d="M90 -40 L85 -70 L65 -80 L55 -60 L50 -20 L45 20 L40 40 L35 50 L45 50 L55 40 L65 20 L75 -10 Z"
+                            fill="url(#toothGrad)" stroke="#D4AF37" stroke-width="2" opacity="0.7"/>
+                            <path d="M75 -30 L72 -50 L62 -55 L58 -40 L55 -10 L50 15 L48 30 L45 35 L52 35 L58 25 L65 10 L72 -10 Z"
+                            fill="white" opacity="0.7"/>
+                        </g>
+
+                        <!-- نجمة التقييم -->
+                        <g transform="translate(380, 50)">
+                            <polygon points="0,-20 6,-6 20,-6 9,4 13,18 0,10 -13,18 -9,4 -20,-6 -6,-6"
+                            fill="#D4AF37" opacity="0.6"/>
+                            <polygon points="0,-14 4,-4 14,-4 6,3 9,13 0,7 -9,13 -6,3 -14,-4 -4,-4"
+                            fill="#F5D76E" opacity="0.8"/>
+                            <text x="0" y="30" text-anchor="middle" font-size="14" font-weight="700" fill="#D4AF37">4.6 ★</text>
+                        </g>
+
+                        <!-- أيقونة الأسنان الصغيرة -->
+                        <g transform="translate(60, 50)">
+                            <circle cx="0" cy="0" r="30" fill="#0A2E4D" opacity="0.8"/>
+                            <path d="M-12 -8 L-8 -18 L8 -18 L12 -8 L10 0 L7 8 L3 12 L-3 12 L-7 8 L-10 0 Z"
+                            fill="white" opacity="0.9"/>
+                        </g>
+
+                        <!-- أيقونة التقويم -->
+                        <g transform="translate(440, 320)">
+                            <circle cx="0" cy="0" r="25" fill="#1ABC9C" opacity="0.8"/>
+                            <path d="M-10 -6 L-8 -14 L8 -14 L10 -6 L8 0 L5 6 L0 8 L-5 6 L-8 0 Z"
+                            fill="white" opacity="0.9"/>
+                            <path d="M-14 -4 L-12 -8 L12 -8 L14 -4 L12 0 L8 4 L-8 4 L-12 0 Z"
+                            fill="none" stroke="white" stroke-width="2" opacity="0.5"/>
+                            <circle cx="0" cy="-10" r="3" fill="#D4AF37"/>
+                            <circle cx="0" cy="0" r="3" fill="#D4AF37"/>
+                            <circle cx="0" cy="10" r="3" fill="#D4AF37"/>
+                        </g>
+
+                        <!-- خطوط زخرفية -->
+                        <path d="M50 350 Q150 320 250 350 Q350 380 450 350"
+                        stroke="#D4AF37" stroke-width="2" fill="none" opacity="0.3" stroke-dasharray="5,5"/>
+                        <path d="M30 370 Q130 340 250 370 Q370 400 470 370"
+                        stroke="#1ABC9C" stroke-width="2" fill="none" opacity="0.2" stroke-dasharray="5,5"/>
+                    </svg>
+                </div>
+            </div>
+        </div>
+
+        <!-- خدمات سريعة -->
+        <div class="quick-services">
+            <div class="container">
+                <h2 class="section-title text-center" style="text-align:center;">
+                    خدماتنا <span class="text-gold">المميزة</span>
+                </h2>
+                <p class="section-subtitle text-center" style="text-align:center;">
+                    نقدم مجموعة متكاملة من خدمات طب الأسنان بأحدث التقنيات
+                </p>
+
+                <div class="grid-3">
+                    <div class="service-card-mini animate-on-scroll scale-up delay-1">
+                        <i class="fas fa-braces"></i>
+                        <h3>تقويم الأسنان</h3>
+                        <p>أحدث تقنيات التقويم المعدني والشفاف والخزفي</p>
+                    </div>
+                    <div class="service-card-mini animate-on-scroll scale-up delay-2">
+                        <i class="fas fa-smile"></i>
+                        <h3>طب الأسنان التجميلي</h3>
+                        <p>تبييض، حشوات تجميلية، وقشور خزفية</p>
+                    </div>
+                    <div class="service-card-mini animate-on-scroll scale-up delay-3">
+                        <i class="fas fa-stethoscope"></i>
+                        <h3>فحوصات دورية</h3>
+                        <p>كشف مبكر وعلاج شامل للحفاظ على صحة فمك</p>
+                    </div>
+                </div>
+
+                <div class="text-center mt-20 animate-on-scroll fade-up delay-4">
+                    <a href="#" class="btn-gold" data-page="services">
+                        جميع الخدمات <i class="fas fa-arrow-left"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- عرض تقييمات سريعة -->
+        <div class="reviews" id="home-reviews">
+            <div class="container">
+                <h2 class="section-title animate-on-scroll slide-right">آراء <span class="text-gold">مرضانا</span></h2>
+                <p class="section-subtitle animate-on-scroll slide-right delay-1">ما يقوله عنا عملاؤنا على Google Maps</p>
+
+                <div class="reviews-grid" id="reviewsGrid">
+                    <!-- سيتم ملؤها بواسطة JavaScript -->
+                </div>
+
+                <div class="text-center mt-20 animate-on-scroll fade-up delay-3">
+                    <a href="#" class="btn-outline" data-page="reviews">
+                        عرض جميع التقييمات <i class="fas fa-arrow-left"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+    صفحة عن العيادة (About)
+    ============================================================ -->
+    <section class="page" id="page-about">
+        <div class="container" style="padding-top: 30px;">
+            <h2 class="section-title animate-on-scroll slide-right">عن <span class="text-gold">Grow Dental Center</span></h2>
+            <p class="section-subtitle animate-on-scroll slide-right delay-1">قصتنا ورؤيتنا في تقديم أفضل رعاية أسنان</p>
+
+            <div class="about-grid">
+                <div class="about-image animate-on-scroll slide-left">
+                    <img src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=600&h=400&fit=crop&crop=center&auto=format&q=80"
+                    alt="داخل عيادة Grow Dental Center"
+                    loading="lazy" />
+                </div>
+                <div class="animate-on-scroll slide-right">
+                    <h3 style="font-size:1.4rem; color:var(--primary-dark); margin-bottom:10px;">
+                        رؤيتنا: ابتسامة <span class="text-gold">صحية وجميلة</span> للجميع
+                    </h3>
+                    <p style="color:var(--text-secondary); line-height:1.8; font-size:0.95rem;">
+                        تأسست عيادة <strong>Grow Dental Center</strong> لتكون وجهة الرعاية
+                        السنية الراقية في الكويت. نقدم خدماتنا في <strong>برج كيبكو - الدور 34</strong>
+                        بموقع استراتيجي يسهل الوصول إليه.
+                    </p>
+                    <p style="color:var(--text-secondary); line-height:1.8; margin-top:10px; font-size:0.95rem;">
+                        نؤمن بأن الابتسامة الجميلة تنبع من صحة الفم المثالية، لذا نستخدم
+                        أحدث التقنيات والمواد الطبية عالية الجودة، مع فريق من أمهر الأطباء.
+                    </p>
+
+                    <div class="about-stats">
+                        <div class="stat-item animate-on-scroll scale-up delay-1">
+                            <span class="number" data-count="12">0</span>
+                            <span class="label">مراجعة على Google</span>
+                        </div>
+                        <div class="stat-item animate-on-scroll scale-up delay-2">
+                            <span class="number" data-count="4.6">0</span>
+                            <span class="label">★ تقييم عام</span>
+                        </div>
+                        <div class="stat-item animate-on-scroll scale-up delay-3">
+                            <span class="number" data-count="5">0</span>
+                            <span class="label">سنوات من الخبرة</span>
+                        </div>
+                        <div class="stat-item animate-on-scroll scale-up delay-4">
+                            <span class="number" data-count="500">0</span>
+                            <span class="label">مرضى سعداء +</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- موقع العيادة -->
+            <div style="margin-top:50px;" class="animate-on-scroll fade-up">
+                <h3 style="font-size:1.5rem; color:var(--primary-dark);">
+                    <i class="fas fa-map-pin text-gold"></i> موقعنا
+                </h3>
+                <p style="color:var(--text-secondary); font-size:0.95rem;">
+                    <strong>برج كيبكو - الدور 34</strong>، شارع خالد بن الوليد، مدينة الكويت
+                </p>
+                <div class="map-container">
+                    <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3473.806418823724!2d47.9814!3d29.3759!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjnCsDIyJzMzLjIiTiA0N8KwNTgnNTMuMSJF!5e0!3m2!1sar!2skw!4v1700000000000"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ============================================================
+صفحة الخدمات (Services)
+============================================================ -->
+<section class="page" id="page-services">
+    <div class="container" style="padding-top:30px;">
+        <h2 class="section-title animate-on-scroll slide-right">خدماتنا <span class="text-gold">المتكاملة</span></h2>
+        <p class="section-subtitle animate-on-scroll slide-right delay-1">جميع ما تقدمه عيادة Grow Dental Center من خدمات</p>
+
+        <div class="services-grid" id="servicesGrid">
+            <!-- سيتم ملؤها بواسطة JavaScript -->
+        </div>
+    </div>
+</section>
+
+<!-- ============================================================
+صفحة التقويم (Ortho)
+============================================================ -->
+<section class="page" id="page-ortho">
+    <div class="container" style="padding-top:30px;">
+        <h2 class="section-title animate-on-scroll slide-right">تقويم <span class="text-gold">الأسنان</span></h2>
+        <p class="section-subtitle animate-on-scroll slide-right delay-1">
+            أفضل دكتور تقويم في الكويت بأحدث ما توصل إليه العلم
+        </p>
+
+        <div class="ortho-showcase">
+            <div class="animate-on-scroll slide-right">
+                <h3 style="font-size:1.2rem; color:var(--primary-dark); margin-bottom:10px;">
+                    <i class="fas fa-braces text-gold"></i> أنواع التقويم المتوفرة
+                </h3>
+                <div class="ortho-types">
+                    <div class="ortho-type"><i class="fas fa-circle"></i> تقويم معدني</div>
+                    <div class="ortho-type"><i class="fas fa-circle"></i> تقويم شفاف (إنفيزلاين)</div>
+                    <div class="ortho-type"><i class="fas fa-circle"></i> تقويم خزفي</div>
+                    <div class="ortho-type"><i class="fas fa-circle"></i> تقويم داخلي</div>
+                </div>
+
+                <ul style="margin-top:16px; list-style:disc; padding-right:20px; color:var(--text-secondary); line-height:2; font-size:0.95rem;">
+                    <li>✔️ أحدث تقنيات التقويم الرقمي</li>
+                    <li>✔️ فترات علاج أقصر بنسبة 30%</li>
+                    <li>✔️ نتائج دقيقة ومضمونة</li>
+                    <li>✔️ متابعة مستمرة من دكتور مختص</li>
+                </ul>
+
+                <div style="margin-top:20px;">
+                    <a href="#" class="btn-primary" data-page="booking">
+                        <i class="fas fa-calendar-check"></i> استشر دكتور التقويم الآن
+                    </a>
+                </div>
+            </div>
+
+            <div class="animate-on-scroll slide-left">
+                <img src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=500&h=400&fit=crop&crop=center&auto=format&q=80"
+                alt="تقويم الأسنان في Grow Dental Center"
+                style="width:100%; border-radius:var(--border-radius); box-shadow:var(--shadow);"
+                loading="lazy" />
+            </div>
+        </div>
+
+        <!-- شهادة الدكتور -->
+        <div style="margin-top:40px; background:var(--bg-secondary); padding:24px; border-radius:var(--border-radius); border-right:5px solid var(--gold); transition: background 0.4s ease;" class="animate-on-scroll fade-up">
+            <div style="display:flex; align-items:center; gap:16px; flex-wrap:wrap;">
+                <div style="width:64px; height:64px; background:var(--primary-teal); border-radius:50%; display:flex; align-items:center; justify-content:center; font-size:2rem; color:white;">
+                    <i class="fas fa-user-md"></i>
+                </div>
+                <div>
+                    <h4 style="color:var(--primary-dark); font-size:1.1rem;">د. خالد السعدي</h4>
+                    <p style="color:var(--text-secondary); font-size:0.9rem;">أخصائي تقويم الأسنان - 12 سنة خبرة</p>
+                    <p style="color:var(--text-secondary); font-size:0.85rem; margin-top:2px;">
+                        <i class="fas fa-certificate text-gold"></i> حاصل على زمالة في تقويم الأسنان من الجمعية الأمريكية لتقويم الأسنان
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ============================================================
+صفحة التقييمات (Reviews)
+============================================================ -->
+<section class="page" id="page-reviews">
+    <div class="container" style="padding-top:30px;">
+        <h2 class="section-title animate-on-scroll slide-right">تقييمات <span class="text-gold">Google Maps</span></h2>
+        <p class="section-subtitle animate-on-scroll slide-right delay-1">آراء حقيقية من عملائنا الكرام</p>
+
+        <div style="display:flex; align-items:center; gap:24px; flex-wrap:wrap; margin-bottom:30px; background:var(--bg-card); padding:20px; border-radius:var(--border-radius); box-shadow:var(--shadow); transition: all 0.4s ease;" class="animate-on-scroll fade-up">
+            <div style="text-align:center;">
+                <div style="font-size:3rem; font-weight:900; color:var(--gold);">4.6</div>
+                <div style="color:var(--gold); font-size:1.4rem;">★★★★★</div>
+                <div style="color:var(--text-secondary); font-size:0.85rem;">من أصل 5</div>
+            </div>
+            <div style="flex:1;">
+                <div style="display:flex; align-items:center; gap:6px; margin-bottom:4px;">
+                    <span style="width:50px; font-size:0.75rem;">5 ★</span>
+                    <div style="flex:1; height:6px; background:var(--border-color); border-radius:10px; overflow:hidden;">
+                        <div style="height:100%; width:75%; background:var(--gold); border-radius:10px;"></div>
+                    </div>
+                    <span style="font-size:0.75rem; color:var(--text-secondary);">9</span>
+                </div>
+                <div style="display:flex; align-items:center; gap:6px; margin-bottom:4px;">
+                    <span style="width:50px; font-size:0.75rem;">4 ★</span>
+                    <div style="flex:1; height:6px; background:var(--border-color); border-radius:10px; overflow:hidden;">
+                        <div style="height:100%; width:20%; background:var(--gold); border-radius:10px;"></div>
+                    </div>
+                    <span style="font-size:0.75rem; color:var(--text-secondary);">2</span>
+                </div>
+                <div style="display:flex; align-items:center; gap:6px; margin-bottom:4px;">
+                    <span style="width:50px; font-size:0.75rem;">3 ★</span>
+                    <div style="flex:1; height:6px; background:var(--border-color); border-radius:10px; overflow:hidden;">
+                        <div style="height:100%; width:5%; background:var(--gold); border-radius:10px;"></div>
+                    </div>
+                    <span style="font-size:0.75rem; color:var(--text-secondary);">1</span>
+                </div>
+                <div style="display:flex; align-items:center; gap:6px;">
+                    <span style="width:50px; font-size:0.75rem;">2 ★</span>
+                    <div style="flex:1; height:6px; background:var(--border-color); border-radius:10px; overflow:hidden;">
+                        <div style="height:100%; width:0%; background:var(--gold); border-radius:10px;"></div>
+                    </div>
+                    <span style="font-size:0.75rem; color:var(--text-secondary);">0</span>
+                </div>
+            </div>
+            <div>
+                <a href="https://www.google.com/maps/search/?api=1&query=Grow+Dental+Center+Kuwait" target="_blank" class="btn-gold" style="padding:10px 20px; font-size:0.8rem;">
+                    <i class="fab fa-google"></i> راجعنا على Google
+                </a>
+            </div>
+        </div>
+
+        <div class="reviews-grid" id="allReviewsGrid">
+            <!-- سيتم ملؤها بواسطة JavaScript -->
+        </div>
+
+        <!-- نموذج إضافة مراجعة -->
+        <div style="margin-top:40px; background:var(--bg-card); padding:24px; border-radius:var(--border-radius); box-shadow:var(--shadow); transition: all 0.4s ease;" class="animate-on-scroll fade-up">
+            <h3 style="color:var(--primary-dark); margin-bottom:14px; font-size:1.1rem;">
+                <i class="fas fa-pen text-gold"></i> أضف مراجعتك
+            </h3>
+            <form id="reviewForm">
+                <div style="display:grid; grid-template-columns:1fr 1fr; gap:14px;">
+                    <div>
+                        <label>الاسم الكامل</label>
+                        <input type="text" id="reviewName" placeholder="أدخل اسمك" required style="width:100%; padding:10px 14px; border:2px solid var(--border-color); border-radius:10px; font-family:var(--font-main); background:var(--input-bg); color:var(--text-primary); font-size:0.9rem;" />
+                    </div>
+                    <div>
+                        <label>البريد الإلكتروني</label>
+                        <input type="email" id="reviewEmail" placeholder="بريدك الإلكتروني" required style="width:100%; padding:10px 14px; border:2px solid var(--border-color); border-radius:10px; font-family:var(--font-main); background:var(--input-bg); color:var(--text-primary); font-size:0.9rem;" />
+                    </div>
+                </div>
+                <div style="margin-top:12px;">
+                    <label>تقييمك بالنجوم</label>
+                    <div style="display:flex; gap:6px; font-size:1.8rem; cursor:pointer; direction:ltr;" id="starRating">
+                        <span data-value="1">☆</span>
+                        <span data-value="2">☆</span>
+                        <span data-value="3">☆</span>
+                        <span data-value="4">☆</span>
+                        <span data-value="5">☆</span>
+                    </div>
+                    <input type="hidden" id="reviewStars" value="5" />
+                </div>
+                <div style="margin-top:12px;">
+                    <label>نص المراجعة</label>
+                    <textarea id="reviewText" rows="3" placeholder="شاركنا تجربتك في العيادة..." required style="width:100%; padding:10px 14px; border:2px solid var(--border-color); border-radius:10px; font-family:var(--font-main); background:var(--input-bg); color:var(--text-primary); font-size:0.9rem;"></textarea>
+                </div>
+                <button type="submit" class="btn-primary" style="margin-top:12px; width:100%; padding:12px; font-size:0.95rem;">
+                    <i class="fas fa-paper-plane"></i> إرسال المراجعة
+                </button>
+            </form>
+        </div>
+    </div>
+</section>
+
+<!-- ============================================================
+صفحة الأسئلة الشائعة (FAQ)
+============================================================ -->
+<section class="page" id="page-faq">
+    <div class="container" style="padding-top:30px;">
+        <h2 class="section-title animate-on-scroll slide-right">الأسئلة <span class="text-gold">الشائعة</span></h2>
+        <p class="section-subtitle animate-on-scroll slide-right delay-1">أهم الأسئلة عن تقويم الأسنان وخدمات العيادة</p>
+
+        <div style="max-width: 800px; margin: 0 auto;">
+            <!-- FAQ 1 -->
+            <div class="faq-item animate-on-scroll fade-up delay-1">
+                <button class="faq-question" onclick="toggleFaq(this)">
+                    <span>ما هي مدة علاج تقويم الأسنان؟</span>
+                    <i class="fas fa-chevron-down"></i>
+                </button>
+                <div class="faq-answer">
+                    <p>تختلف مدة علاج تقويم الأسنان حسب حالة كل مريض ونوع التقويم المستخدم. في المتوسط، تتراوح مدة العلاج بين 12 إلى 24 شهراً. في عيادة Grow Dental Center، نستخدم أحدث التقنيات الرقمية التي قد تقلل المدة بنسبة تصل إلى 30% مقارنة بالطرق التقليدية.</p>
+                </div>
+            </div>
+
+            <!-- FAQ 2 -->
+            <div class="faq-item animate-on-scroll fade-up delay-2">
+                <button class="faq-question" onclick="toggleFaq(this)">
+                    <span>هل تقويم الأسنان مؤلم؟</span>
+                    <i class="fas fa-chevron-down"></i>
+                </button>
+                <div class="faq-answer">
+                    <p>قد يشعر المريض ببعض الانزعاج أو الضغط الخفيف في الأيام الأولى بعد تركيب التقويم أو بعد كل جلسة تعديل. هذا الألم يكون بسيطاً ويمكن التحكم به باستخدام مسكنات الألم البسيطة. بعد بضعة أيام، يختفي الشعور تماماً ويعتاد الفم على وجود التقويم.</p>
+                </div>
+            </div>
+
+            <!-- FAQ 3 -->
+            <div class="faq-item animate-on-scroll fade-up delay-3">
+                <button class="faq-question" onclick="toggleFaq(this)">
+                    <span>ما الفرق بين التقويم المعدني والشفاف؟</span>
+                    <i class="fas fa-chevron-down"></i>
+                </button>
+                <div class="faq-answer">
+                    <p>التقويم المعدني هو الأكثر شيوعاً وفعالية، ويتكون من أقواس معدنية مثبتة على الأسنان. أما التقويم الشفاف (مثل إنفيزلاين) فهو عبارة عن قوالب بلاستيكية شفافة تُغير كل أسبوعين لتقويم الأسنان تدريجياً. التقويم الشفاف أقل وضوحاً وأكثر راحة، لكنه قد لا يكون مناسباً للحالات المعقدة.</p>
+                </div>
+            </div>
+
+            <!-- FAQ 4 -->
+            <div class="faq-item animate-on-scroll fade-up delay-4">
+                <button class="faq-question" onclick="toggleFaq(this)">
+                    <span>كم تكلفة تقويم الأسنان في Grow Dental Center؟</span>
+                    <i class="fas fa-chevron-down"></i>
+                </button>
+                <div class="faq-answer">
+                    <p>تختلف تكلفة تقويم الأسنان حسب نوع التقويم ومدة العلاج وتعقيد الحالة. في عيادة Grow Dental Center، نقدم خطط دفع مرنة تناسب جميع الميزانيات. ننصح بحجز استشارة مجانية لتقييم حالتك وتقديم عرض سعر دقيق.</p>
+                </div>
+            </div>
+
+            <!-- FAQ 5 -->
+            <div class="faq-item animate-on-scroll fade-up delay-5">
+                <button class="faq-question" onclick="toggleFaq(this)">
+                    <span>هل يمكن تقويم الأسنان في أي عمر؟</span>
+                    <i class="fas fa-chevron-down"></i>
+                </button>
+                <div class="faq-answer">
+                    <p>نعم، يمكن تقويم الأسنان في أي عمر! على الرغم من أن أفضل وقت للتقويم هو في مرحلة المراهقة (بين 10-14 سنة)، إلا أن الكثير من البالغين يخضعون للتقويم بنجاح. في عيادتنا، نستقبل مرضى من جميع الأعمار ونقدم حلولاً مخصصة لكل حالة.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ============================================================
+صفحة اتصل بنا (Contact)
+============================================================ -->
+<section class="page" id="page-contact">
+    <div class="container" style="padding-top:30px;">
+        <h2 class="section-title animate-on-scroll slide-right">اتصل <span class="text-gold">بنا</span></h2>
+        <p class="section-subtitle animate-on-scroll slide-right delay-1">نحن هنا لخدمتك، تواصل معنا بأي وقت</p>
+
+        <div class="contact-grid">
+            <div class="animate-on-scroll slide-right">
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label>الاسم الكامل</label>
+                        <input type="text" placeholder="أدخل اسمك" required />
+                    </div>
+                    <div class="form-group">
+                        <label>رقم الهاتف</label>
+                        <input type="tel" placeholder="+965 5000 0000" required />
+                    </div>
+                    <div class="form-group">
+                        <label>البريد الإلكتروني</label>
+                        <input type="email" placeholder="بريدك الإلكتروني" required />
+                    </div>
+                    <div class="form-group">
+                        <label>الموضوع</label>
+                        <input type="text" placeholder="موضوع الرسالة" />
+                    </div>
+                    <div class="form-group">
+                        <label>الرسالة</label>
+                        <textarea placeholder="اكتب رسالتك هنا..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary" style="width:100%; padding:12px; font-size:0.95rem;">
+                        <i class="fas fa-paper-plane"></i> إرسال الرسالة
+                    </button>
+                </form>
+            </div>
+
+            <div class="animate-on-scroll slide-left">
+                <div style="background:var(--bg-secondary); padding:24px; border-radius:var(--border-radius); transition: background 0.4s ease;">
+                    <h3 style="color:var(--primary-dark); margin-bottom:16px; font-size:1.1rem;">
+                        <i class="fas fa-phone text-gold"></i> معلومات الاتصال
+                    </h3>
+
+                    <div class="contact-info-item">
+                        <i class="fas fa-map-pin"></i>
+                        <div class="info-text">
+                            العنوان
+                            <small>برج كيبكو - الدور 34، شارع خالد بن الوليد، مدينة الكويت</small>
+                        </div>
+                    </div>
+
+                    <div class="contact-info-item">
+                        <i class="fas fa-phone"></i>
+                        <div class="info-text">
+                            الهاتف
+                            <small dir="ltr">+965 2294 3304</small>
+                        </div>
+                    </div>
+
+                    <div class="contact-info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div class="info-text">
+                            البريد الإلكتروني
+                            <small>info@growdental.com</small>
+                        </div>
+                    </div>
+
+                    <div class="contact-info-item">
+                        <i class="fas fa-clock"></i>
+                        <div class="info-text">
+                            ساعات العمل
+                            <small>يومياً 10:00 صباحاً - 10:00 مساءً (ما عدا الجمعة)</small>
+                        </div>
+                    </div>
+
+                    <div style="margin-top:16px; display:flex; gap:10px; flex-wrap:wrap;">
+                        <span class="status-badge closed" id="statusBadge2">
+                            <span class="dot"></span>
+                            <span id="statusText2">مغلق الآن</span>
+                        </span>
+                        <a href="tel:+96522943304" class="btn-primary" style="padding:8px 16px; font-size:0.85rem;">
+                            <i class="fas fa-phone"></i> اتصل بنا
+                        </a>
+                        <a href="https://wa.me/96522943304" target="_blank" class="btn-gold" style="padding:8px 16px; font-size:0.85rem;">
+                            <i class="fab fa-whatsapp"></i> واتساب
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- خريطة -->
+        <div class="map-container animate-on-scroll fade-up">
+            <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3473.806418823724!2d47.9814!3d29.3759!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjnCsDIyJzMzLjIiTiA0N8KwNTgnNTMuMSJF!5e0!3m2!1sar!2skw!4v1700000000000"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+    </div>
+</div>
+</section>
+
+<!-- ============================================================
+صفحة حجز الموعد (Booking) - محسنة مع Validation
+============================================================ -->
+<section class="page" id="page-booking">
+    <div class="container" style="padding-top:30px;">
+        <h2 class="section-title text-center" style="text-align:center;">
+            احجز <span class="text-gold">موعدك</span> الآن
+        </h2>
+        <p class="section-subtitle text-center" style="text-align:center;">
+            املأ النموذج وسنتواصل معك لتأكيد الحجز
+        </p>
+
+        <div class="booking-form">
+            <form id="bookingForm" novalidate>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="bookName">الاسم الكامل <span style="color:#E74C3C;">*</span></label>
+                        <input type="text" id="bookName" placeholder="أدخل اسمك الثلاثي" required />
+                        <div class="error-message" id="bookNameError">الرجاء إدخال الاسم الكامل</div>
+                    </div>
+                    <div class="form-group">
+                        <label for="bookPhone">رقم الهاتف <span style="color:#E74C3C;">*</span></label>
+                        <input type="tel" id="bookPhone" placeholder="+965 5000 0000" required />
+                        <div class="error-message" id="bookPhoneError">الرجاء إدخال رقم هاتف صحيح</div>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="bookEmail">البريد الإلكتروني <span style="color:#E74C3C;">*</span></label>
+                    <input type="email" id="bookEmail" placeholder="بريدك الإلكتروني" required />
+                    <div class="error-message" id="bookEmailError">الرجاء إدخال بريد إلكتروني صحيح</div>
+                </div>
+
+                <div class="form-group">
+                    <label for="bookService">اختر الخدمة <span style="color:#E74C3C;">*</span></label>
+                    <select id="bookService" required>
+                        <option value="">-- اختر الخدمة --</option>
+                        <option value="تقويم الأسنان">تقويم الأسنان</option>
+                        <option value="زراعة الأسنان">زراعة الأسنان</option>
+                        <option value="تبييض الأسنان">تبييض الأسنان</option>
+                        <option value="حشوات تجميلية">حشوات تجميلية</option>
+                        <option value="جراحة الفم">جراحة الفم</option>
+                        <option value="فحص دوري">فحص دوري</option>
+                        <option value="طب أسنان الأطفال">طب أسنان الأطفال</option>
+                        <option value="علاج الجذور">علاج الجذور</option>
+                    </select>
+                    <div class="error-message" id="bookServiceError">الرجاء اختيار الخدمة</div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="bookDate">التاريخ <span style="color:#E74C3C;">*</span></label>
+                        <input type="date" id="bookDate" required />
+                        <div class="error-message" id="bookDateError">الرجاء اختيار تاريخ صحيح</div>
+                        <div class="form-hint"><i class="fas fa-info-circle"></i> يرجى اختيار تاريخ من يوم غد فما بعده</div>
+                    </div>
+                    <div class="form-group">
+                        <label for="bookTime">الوقت <span style="color:#E74C3C;">*</span></label>
+                        <select id="bookTime" required>
+                            <option value="">-- اختر الوقت --</option>
+                            <option value="10:00">10:00 صباحاً</option>
+                            <option value="11:00">11:00 صباحاً</option>
+                            <option value="12:00">12:00 مساءً</option>
+                            <option value="13:00">1:00 مساءً</option>
+                            <option value="14:00">2:00 مساءً</option>
+                            <option value="15:00">3:00 مساءً</option>
+                            <option value="16:00">4:00 مساءً</option>
+                            <option value="17:00">5:00 مساءً</option>
+                            <option value="18:00">6:00 مساءً</option>
+                            <option value="19:00">7:00 مساءً</option>
+                            <option value="20:00">8:00 مساءً</option>
+                            <option value="21:00">9:00 مساءً</option>
+                        </select>
+                        <div class="error-message" id="bookTimeError">الرجاء اختيار الوقت المناسب</div>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="bookNotes">ملاحظات إضافية</label>
+                    <textarea id="bookNotes" rows="3" placeholder="أي ملاحظات أو متطلبات خاصة..."></textarea>
+                </div>
+
+                <button type="submit" class="btn-gold" style="width:100%; padding:12px; font-size:0.95rem;">
+                    <i class="fas fa-check-circle"></i> تأكيد الحجز
+                </button>
+            </form>
+
+            <!-- عرض الحجوزات المحفوظة -->
+            <div style="margin-top:30px;">
+                <h4 style="color:var(--primary-dark); font-size:1rem;">
+                    <i class="fas fa-list text-gold"></i> حجوزاتي السابقة
+                </h4>
+                <div id="bookingList" style="margin-top:10px;">
+                    <p style="color:var(--text-secondary); font-size:0.9rem;">لا توجد حجوزات حالياً.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ============================================================
+التذييل (Footer)
+============================================================ -->
+<footer class="footer">
+    <div class="container">
+        <div class="footer-grid">
+            <div>
+                <div style="font-size:1.4rem; font-weight:900; color:var(--white); margin-bottom:10px; display:flex; align-items:center; gap:8px;">
+                    <svg width="36" height="36" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="50" cy="50" r="45" fill="#0A2E4D" stroke="#D4AF37" stroke-width="2"/>
+                        <path d="M35 40 L45 40 L45 30 L55 30 L55 40 L65 40 L65 50 L55 50 L55 60 L45 60 L45 50 L35 50 Z" fill="#D4AF37" opacity="0.9"/>
+                        <circle cx="50" cy="35" r="5" fill="white" opacity="0.9"/>
+                        <path d="M30 70 Q40 55 50 70 Q60 55 70 70" stroke="#D4AF37" stroke-width="3" fill="none" stroke-linecap="round"/>
+                        <circle cx="40" cy="70" r="3" fill="white" opacity="0.7"/>
+                        <circle cx="60" cy="70" r="3" fill="white" opacity="0.7"/>
+                    </svg>
+                    Grow<span style="color:var(--primary-teal);">Dental</span>
+                </div>
+                <p style="color:rgba(255,255,255,0.6); line-height:1.8; font-size:0.9rem;">
+                    عيادة أسنان راقية في برج كيبكو، الكويت. نقدم أحدث تقنيات طب الأسنان في بيئة مريحة.
+                </p>
+                <div style="margin-top:12px; display:flex; gap:10px;">
+                    <a href="https://wa.me/96522943304" target="_blank" style="background:rgba(255,255,255,0.1); width:36px; height:36px; border-radius:50%; display:flex; align-items:center; justify-content:center; color:var(--white); transition:var(--transition);">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                    <a href="#" style="background:rgba(255,255,255,0.1); width:36px; height:36px; border-radius:50%; display:flex; align-items:center; justify-content:center; color:var(--white); transition:var(--transition);">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="#" style="background:rgba(255,255,255,0.1); width:36px; height:36px; border-radius:50%; display:flex; align-items:center; justify-content:center; color:var(--white); transition:var(--transition);">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div>
+                <h4>روابط سريعة</h4>
+                <a href="#" class="page-link" data-page="home">الرئيسية</a>
+                <a href="#" class="page-link" data-page="about">عن العيادة</a>
+                <a href="#" class="page-link" data-page="services">الخدمات</a>
+                <a href="#" class="page-link" data-page="ortho">التقويم</a>
+                <a href="#" class="page-link" data-page="reviews">التقييمات</a>
+                <a href="#" class="page-link" data-page="faq">الأسئلة الشائعة</a>
+                <a href="#" class="page-link" data-page="contact">اتصل بنا</a>
+            </div>
+
+            <div>
+                <h4>معلومات الاتصال</h4>
+                <p style="font-size:0.9rem;"><i class="fas fa-map-pin" style="color:var(--gold); margin-left:8px;"></i> برج كيبكو - الدور 34</p>
+                <p style="font-size:0.9rem;"><i class="fas fa-phone" style="color:var(--gold); margin-left:8px;"></i> +965 2294 3304</p>
+                <p style="font-size:0.9rem;"><i class="fas fa-clock" style="color:var(--gold); margin-left:8px;"></i> 10:00 ص - 10:00 م</p>
+                <p style="margin-top:6px;">
+                    <span class="status-badge closed" id="statusBadge3">
+                        <span class="dot"></span>
+                        <span id="statusText3">مغلق الآن</span>
+                    </span>
+                </p>
+            </div>
+
+            <div>
+                <h4>موقع العيادة</h4>
+                <div style="border-radius:12px; overflow:hidden; max-width:200px;">
+                    <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3473.806418823724!2d47.9814!3d29.3759!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjnCsDIyJzMzLjIiTiA0N8KwNTgnNTMuMSJF!5e0!3m2!1sar!2skw!4v1700000000000"
+                    style="width:100%; height:100px; border:none;"
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <p>
+            &copy; 2026 <strong>Grow Dental Center</strong> - جميع الحقوق محفوظة.
+            هذا نموذج تجريبي <span style="color:var(--gold);">للتواصل لتطوير موقعك: +966 507 652 943</span>
+        </p>
+    </div>
+</div>
+</footer>
+
+<!-- ============================================================
+أزرار عائمة
+============================================================ -->
+<!-- واتساب للعميل -->
+<a href="https://wa.me/966507652943" target="_blank" class="whatsapp-float" aria-label="واتساب للتواصل">
+    <i class="fab fa-whatsapp"></i>
+</a>
+
+<!-- زر العودة للأعلى -->
+<button class="scroll-top" id="scrollTopBtn" aria-label="العودة للأعلى">
+    <i class="fas fa-chevron-up"></i>
+</button>
+
+<!-- ============================================================
+JavaScript
+============================================================ -->
+<script>
+    /* ============================================================
+               JavaScript - الكود المحسن مع منع View Source
+               ============================================================ */
+
+    // ============================================================
+    // 1. منع النقر الأيمن (Right Click)
+    // ============================================================
+    document.addEventListener('contextmenu', function(e) {
+        e.preventDefault();
+        showToast('❌ عرض الكود غير متاح في هذا النموذج التجريبي', 'error');
+        return false;
+    });
+
+    // ============================================================
+    // 2. منع اختصارات لوحة المفاتيح
+    // ============================================================
+    document.addEventListener('keydown', function(e) {
+        // منع F12
+        if (e.key === 'F12') {
+            e.preventDefault();
+            showToast('❌ عرض الكود غير متاح في هذا النموذج التجريبي', 'error');
+            return false;
+        }
+
+        // منع Ctrl+Shift+I (Developer Tools)
+        if (e.ctrlKey && e.shiftKey && (e.key === 'I' || e.key === 'i')) {
+            e.preventDefault();
+            showToast('❌ عرض الكود غير متاح في هذا النموذج التجريبي', 'error');
+            return false;
+        }
+
+        // منع Ctrl+Shift+J (Console)
+        if (e.ctrlKey && e.shiftKey && (e.key === 'J' || e.key === 'j')) {
+            e.preventDefault();
+            showToast('❌ عرض الكود غير متاح في هذا النموذج التجريبي', 'error');
+            return false;
+        }
+
+        // منع Ctrl+U (View Source)
+        if (e.ctrlKey && (e.key === 'U' || e.key === 'u')) {
+            e.preventDefault();
+            showToast('❌ عرض الكود غير متاح في هذا النموذج التجريبي', 'error');
+            return false;
+        }
+
+        // منع Ctrl+S (Save)
+        if (e.ctrlKey && (e.key === 'S' || e.key === 's')) {
+            e.preventDefault();
+            showToast('❌ حفظ الصفحة غير متاح في هذا النموذج التجريبي', 'error');
+            return false;
+        }
+    });
+
+    // ============================================================
+    // 3. منع السحب والإفلات للصور
+    // ============================================================
+    document.addEventListener('dragstart', function(e) {
+        e.preventDefault();
+        return false;
+    });
+
+    // ============================================================
+    // 4. منع تحديد النص بالكامل
+    // ============================================================
+    document.addEventListener('selectstart', function(e) {
+        e.preventDefault();
+        return false;
+    });
+
+    // ============================================================
+    // 5. إغلاق Banner
+    // ============================================================
+    function closeBanner() {
+        const banner = document.getElementById('demoBanner');
+        if (banner) {
+            banner.style.display = 'none';
+            // تعديل موضع الـ Navbar
+            const navbar = document.getElementById('navbar');
+            if (navbar) {
+                navbar.style.top = '0';
+            }
+        }
+    }
+
+    // ============================================================
+    // 6. البيانات
+    // ============================================================
+    const clinicData = {
+        name: 'Grow Dental Center',
+        phone: '+965 2294 3304',
+        address: 'برج كيبكو - الدور 34، شارع خالد بن الوليد، مدينة الكويت',
+        rating: 4.6,
+        reviewsCount: 12,
+        openHour: 10,
+        closeHour: 22,
+        reviews: [{
+            name: 'Gigi ASAA',
+            role: 'مرشد محلي، 21 مراجعة',
+            avatar: 'https://ui-avatars.com/api/?name=Gigi+ASAA&background=1ABC9C&color=fff&size=50',
+            stars: 5,
+            text: 'أفضل دكتور للتقويم جدًا جدًا متعاون و مرح و عنده اخر ما توصل اليه العلم في تقويم الاسنان.',
+            date: 'منذ شهرين',
+            response: 'شكراً لك على كلماتك الطيبة، إن رعاية أشخاص مثلك هو أمر يسعدنا.'
+        }, {
+            name: 'Mohammed Al-R',
+            role: 'مرشد محلي، 301 مراجعة',
+            avatar: 'https://ui-avatars.com/api/?name=Mohammed+Al-R&background=0A2E4D&color=fff&size=50',
+            stars: 5,
+            text: 'خدمة ودودة، موقع ممتاز، وبيئة مريحة للغاية. أوصي بشدة بهذا المكتب المرموق.',
+            date: 'منذ 3 أشهر',
+            response: ''
+        }, {
+            name: 'Kids TV',
+            role: '5 مراجعات',
+            avatar: 'https://ui-avatars.com/api/?name=Kids+TV&background=D4AF37&color=fff&size=50',
+            stars: 3,
+            text: 'عدم الالتزام بالمواعيد ..',
+            date: 'منذ 5 أشهر',
+            response: 'نعتذر عن أي تأخير، نعمل دائماً على تحسين مواعيدنا لخدمتكم بشكل أفضل.'
+        }, {
+            name: 'Sara Al-Fahd',
+            role: 'مرشد محلي، 45 مراجعة',
+            avatar: 'https://ui-avatars.com/api/?name=Sara+Al-Fahd&background=16A085&color=fff&size=50',
+            stars: 5,
+            text: 'عيادة رائعة ونظيفة جداً. الدكتور كان محترفاً وشرح لي كل شيء بالتفصيل. أنصح بها بشدة.',
+            date: 'منذ أسبوعين',
+            response: ''
+        }, {
+            name: 'Ahmed Al-Khaled',
+            role: '12 مراجعة',
+            avatar: 'https://ui-avatars.com/api/?name=Ahmed+Al-Khaled&background=0A2E4D&color=fff&size=50',
+            stars: 4,
+            text: 'خدمة جيدة جداً، لكن الانتظار كان طويلاً بعض الشيء. الأطباء ممتازين والمكان راقي.',
+            date: 'منذ شهر',
+            response: 'نشكرك على ملاحظاتك، نعد بتحسين وقت الانتظار في زيارتك القادمة.'
+        }, {
+            name: 'Noor Al-Enezi',
+            role: 'مرشد محلي، 89 مراجعة',
+            avatar: 'https://ui-avatars.com/api/?name=Noor+Al-Enezi&background=D4AF37&color=fff&size=50',
+            stars: 5,
+            text: 'تجربة مذهلة! تقويم أسنان ابنتي كان مثالياً. الفريق ودود والمكان مريح جداً.',
+            date: 'منذ 3 أسابيع',
+            response: 'شكراً لك على ثقتك بنا، سعداء بخدمة عائلتك الكريمة.'
+        }],
+        services: [
+            { name: 'تقويم الأسنان', desc: 'أحدث تقنيات التقويم المعدني والشفاف والخزفي', icon: 'fa-braces',
+            featured: true },
+            { name: 'زراعة الأسنان', desc: 'زراعة دقيقة بأحدث المواد الطبية', icon: 'fa-tooth', featured: false },
+            { name: 'تبييض الأسنان', desc: 'تبييض احترافي بنتائج فورية', icon: 'fa-star', featured: false },
+            { name: 'حشوات تجميلية', desc: 'حشوات بلون الأسنان بتقنية عالية', icon: 'fa-fill-drip', featured: false },
+            { name: 'جراحة الفم', desc: 'عمليات جراحية دقيقة وآمنة', icon: 'fa-scalpel', featured: false },
+            { name: 'فحوصات دورية', desc: 'كشف مبكر وعلاج شامل', icon: 'fa-stethoscope', featured: false },
+            { name: 'طب أسنان الأطفال', desc: 'رعاية أسنان الأطفال ببيئة مرحة', icon: 'fa-child', featured: false },
+            { name: 'علاج الجذور', desc: 'علاج لب الأسنان بأحدث التقنيات', icon: 'fa-toothbrush', featured: false }
+        ]
+    };
+
+    let currentPage = 'home';
+
+    // ---------- دوال مساعدة ----------
+    function $(s) { return document.querySelector(s); }
+
+    function $$(s) { return document.querySelectorAll(s); }
+
+    // ---------- Toast ----------
+    function showToast(message, type = 'success') {
+        const toast = document.getElementById('toastMessage');
+        const text = document.getElementById('toastText');
+        if (!toast || !text) return;
+
+        text.textContent = message;
+        toast.className = 'toast-message ' + type;
+        toast.classList.add('show');
+
+        clearTimeout(toast._timeout);
+        toast._timeout = setTimeout(() => {
+            toast.classList.remove('show');
+        }, 4000);
+    }
+
+    // ---------- تحديث حالة المفتوح ----------
+    function updateClinicStatus() {
+        const now = new Date();
+        const hour = now.getHours();
+        const isOpen = hour >= clinicData.openHour && hour < clinicData.closeHour;
+
+        const badges = [
+            { el: $('#statusBadge'), text: $('#statusText') },
+            { el: $('#statusBadge2'), text: $('#statusText2') },
+            { el: $('#statusBadge3'), text: $('#statusText3') }
+        ];
+
+        badges.forEach(item => {
+            if (item.el) {
+                item.el.className = `status-badge ${isOpen ? 'open' : 'closed'}`;
+                item.text.textContent = isOpen ? 'مفتوح الآن 🟢' : 'مغلق الآن 🔴';
+            }
+        });
+    }
+
+    // ---------- عرض التقييمات ----------
+    function renderReviews(containerId, limit = 3) {
+        const container = document.getElementById(containerId);
+        if (!container) return;
+
+        const reviewsToShow = clinicData.reviews.slice(0, limit);
+        container.innerHTML = reviewsToShow.map((r, index) => `
+                    <div class="review-card animate-on-scroll fade-up delay-${(index % 4) + 1}">
+                        <div class="reviewer">
+                            <img src="${r.avatar}" alt="${r.name}" loading="lazy" />
+                            <div>
+                                <div class="name">${r.name}</div>
+                                <div class="role">${r.role}</div>
+                            </div>
+                        </div>
+                        <div class="stars-small">${'★'.repeat(r.stars)}${'☆'.repeat(5 - r.stars)}</div>
+                        <p class="review-text">"${r.text}"</p>
+                        <div class="review-date"><i class="far fa-calendar-alt"></i> ${r.date}</div>
+                        ${r.response ? `<div class="clinic-response"><strong><i class="fas fa-reply"></i> رد العيادة:</strong> ${r.response}</div>` : ''}
+                    </div>
+                `).join('');
+
+        setTimeout(() => {
+            container.querySelectorAll('.animate-on-scroll').forEach(el => el.classList.add('visible'));
+        }, 150);
+    }
+
+    // ---------- عرض الخدمات ----------
+    function renderServices() {
+        const container = document.getElementById('servicesGrid');
+        if (!container) return;
+
+        container.innerHTML = clinicData.services.map((s, index) => `
+                    <div class="service-card-full animate-on-scroll scale-up delay-${(index % 4) + 1}">
+                        ${s.featured ? '<span class="featured-badge">🌟 الأكثر طلباً</span>' : ''}
+                        <div class="icon-wrap"><i class="fas ${s.icon}"></i></div>
+                        <h3>${s.name}</h3>
+                        <p>${s.desc}</p>
+                        <a href="#" class="btn-outline" style="padding:6px 16px; font-size:0.8rem;" data-page="booking">
+                            اطلب استشارة <i class="fas fa-arrow-left"></i>
+                        </a>
+                    </div>
+                `).join('');
+
+        setTimeout(() => {
+            container.querySelectorAll('.animate-on-scroll').forEach(el => el.classList.add('visible'));
+        }, 150);
+    }
+
+    // ---------- التنقل ----------
+    function navigateTo(page) {
+        $$('.page').forEach(p => p.classList.remove('active'));
+        const target = document.getElementById(`page-${page}`);
+        if (target) {
+            target.classList.add('active');
+            setTimeout(() => {
+                target.querySelectorAll('.animate-on-scroll').forEach(el => el.classList.add('visible'));
+            }, 150);
+        }
+
+        $$('.nav-links a[data-page]').forEach(link => {
+            link.classList.toggle('active', link.dataset.page === page);
+        });
+
+        document.getElementById('navLinks').classList.remove('open');
+        document.getElementById('hamburger').classList.remove('active');
+
+        currentPage = page;
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+        localStorage.setItem('currentPage', page);
+
+        if (page === 'home') renderReviews('reviewsGrid', 3);
+        if (page === 'reviews') renderReviews('allReviewsGrid', 6);
+    }
+
+    // ---------- عداد إحصائيات ----------
+    function animateCounters() {
+        document.querySelectorAll('.stat-item .number[data-count]').forEach(counter => {
+            const target = parseFloat(counter.dataset.count);
+            const duration = 1500;
+            const steps = duration / 20;
+            let current = 0;
+            const increment = target / steps;
+
+            const update = () => {
+                current += increment;
+                if (current >= target) { counter.textContent = target; return; }
+                counter.textContent = Math.round(current * 10) / 10;
+                requestAnimationFrame(update);
+            };
+            update();
+        });
+    }
+
+    // ---------- Validation Booking ----------
+    function setupBooking() {
+        const form = document.getElementById('bookingForm');
+        if (!form) return;
+
+        const nameInput = document.getElementById('bookName');
+        const phoneInput = document.getElementById('bookPhone');
+        const emailInput = document.getElementById('bookEmail');
+        const serviceInput = document.getElementById('bookService');
+        const dateInput = document.getElementById('bookDate');
+        const timeInput = document.getElementById('bookTime');
+
+        const nameError = document.getElementById('bookNameError');
+        const phoneError = document.getElementById('bookPhoneError');
+        const emailError = document.getElementById('bookEmailError');
+        const serviceError = document.getElementById('bookServiceError');
+        const dateError = document.getElementById('bookDateError');
+        const timeError = document.getElementById('bookTimeError');
+
+        function clearError(input, errorEl) {
+            input.classList.remove('error', 'validation-success');
+            errorEl.classList.remove('show');
+        }
+
+        function setError(input, errorEl) {
+            input.classList.add('error');
+            input.classList.remove('validation-success');
+            errorEl.classList.add('show');
+        }
+
+        function setSuccess(input) {
+            input.classList.remove('error');
+            input.classList.add('validation-success');
+        }
+
+        function validateName() {
+            const value = nameInput.value.trim();
+            if (value.length >= 3) { setSuccess(nameInput);
+                nameError.classList.remove('show'); return true; } else { setError(nameInput, nameError); return false; }
+        }
+
+        function validatePhone() {
+            const value = phoneInput.value.trim();
+            if (value.length >= 8) { setSuccess(phoneInput);
+                phoneError.classList.remove('show'); return true; } else { setError(phoneInput, phoneError); return false; }
+        }
+
+        function validateEmail() {
+            const value = emailInput.value.trim();
+            const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            if (regex.test(value)) { setSuccess(emailInput);
+                emailError.classList.remove('show'); return true; } else { setError(emailInput, emailError); return false; }
+        }
+
+        function validateService() {
+            if (serviceInput.value) { setSuccess(serviceInput);
+                serviceError.classList.remove('show'); return true; } else { setError(serviceInput, serviceError); return false; }
+        }
+
+        function validateDate() {
+            const value = dateInput.value;
+            if (value) {
+                const selected = new Date(value);
+                const tomorrow = new Date();
+                tomorrow.setDate(tomorrow.getDate() + 1);
+                tomorrow.setHours(0, 0, 0, 0);
+                if (selected >= tomorrow) { setSuccess(dateInput);
+                    dateError.classList.remove('show'); return true; } else { setError(dateInput, dateError); return false; }
+            } else { setError(dateInput, dateError); return false; }
+        }
+
+        function validateTime() {
+            if (timeInput.value) { setSuccess(timeInput);
+                timeError.classList.remove('show'); return true; } else { setError(timeInput, timeError); return false; }
+        }
+
+        nameInput.addEventListener('blur', validateName);
+        phoneInput.addEventListener('blur', validatePhone);
+        emailInput.addEventListener('blur', validateEmail);
+        serviceInput.addEventListener('change', validateService);
+        dateInput.addEventListener('change', validateDate);
+        timeInput.addEventListener('change', validateTime);
+
+        const today = new Date();
+        const tomorrow = new Date(today);
+        tomorrow.setDate(tomorrow.getDate() + 1);
+        dateInput.min = tomorrow.toISOString().split('T')[0];
+
+        form.addEventListener('submit', function(e) {
+            e.preventDefault();
+
+            const isNameValid = validateName();
+            const isPhoneValid = validatePhone();
+            const isEmailValid = validateEmail();
+            const isServiceValid = validateService();
+            const isDateValid = validateDate();
+            const isTimeValid = validateTime();
+
+            if (isNameValid && isPhoneValid && isEmailValid && isServiceValid && isDateValid && isTimeValid) {
+                const booking = {
+                    name: nameInput.value.trim(),
+                    phone: phoneInput.value.trim(),
+                    email: emailInput.value.trim(),
+                    service: serviceInput.value,
+                    date: dateInput.value,
+                    time: timeInput.value,
+                    notes: document.getElementById('bookNotes').value.trim()
+                };
+
+                let bookings = JSON.parse(localStorage.getItem('growBookings') || '[]');
+                bookings.push(booking);
+                localStorage.setItem('growBookings', JSON.stringify(bookings));
+
+                showToast('✅ تم حجز موعدك بنجاح! سنتصل بك قريباً.', 'success');
+
+                form.reset();
+                [nameInput, phoneInput, emailInput, serviceInput, dateInput, timeInput].forEach(input => {
+                    input.classList.remove('validation-success');
+                });
+                renderBookings();
+            } else {
+                showToast('❌ الرجاء تصحيح الأخطاء في النموذج', 'error');
+                const firstError = form.querySelector('.error');
+                if (firstError) firstError.focus();
+            }
+        });
+
+        renderBookings();
+    }
+
+    function renderBookings() {
+        const container = document.getElementById('bookingList');
+        if (!container) return;
+
+        const bookings = JSON.parse(localStorage.getItem('growBookings') || '[]');
+        if (bookings.length === 0) {
+            container.innerHTML = '<p style="color:var(--text-secondary); font-size:0.9rem;">لا توجد حجوزات حالياً.</p>';
+            return;
+        }
+
+        container.innerHTML = bookings.map((b, index) => `
+                    <div style="background:var(--bg-secondary); padding:10px 14px; border-radius:10px; margin-bottom:6px; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:6px;">
+                        <div style="font-size:0.9rem;">
+                            <strong>${b.name}</strong> - ${b.service}
+                            <span style="font-size:0.8rem; color:var(--text-secondary);"> | ${b.date} - ${b.time}</span>
+                        </div>
+                        <button onclick="deleteBooking(${index})" style="background:#E74C3C; color:white; border:none; padding:2px 10px; border-radius:6px; cursor:pointer; font-size:0.75rem;">
+                            <i class="fas fa-trash"></i>
+                        </button>
+                    </div>
+                `).join('');
+    }
+
+    window.deleteBooking = function(index) {
+        if (confirm('هل أنت متأكد من حذف هذا الحجز؟')) {
+            let bookings = JSON.parse(localStorage.getItem('growBookings') || '[]');
+            bookings.splice(index, 1);
+            localStorage.setItem('growBookings', JSON.stringify(bookings));
+            renderBookings();
+            showToast('🗑️ تم حذف الحجز بنجاح', 'info');
+        }
+    };
+
+    // ---------- Review Form ----------
+    function setupReviewForm() {
+        const form = document.getElementById('reviewForm');
+        if (!form) return;
+
+        const stars = document.querySelectorAll('#starRating span');
+        const starsInput = document.getElementById('reviewStars');
+        let selectedStars = 5;
+
+        stars.forEach(star => {
+            star.addEventListener('click', function() {
+                selectedStars = parseInt(this.dataset.value);
+                starsInput.value = selectedStars;
+                stars.forEach(s => {
+                    s.textContent = parseInt(s.dataset.value) <= selectedStars ? '★' : '☆';
+                    s.style.color = parseInt(s.dataset.value) <= selectedStars ? '#D4AF37' : '#CCC';
+                });
+            });
+            if (parseInt(star.dataset.value) <= 5) {
+                star.textContent = '★';
+                star.style.color = '#D4AF37';
+            }
+        });
+
+        form.addEventListener('submit', function(e) {
+            e.preventDefault();
+            const name = document.getElementById('reviewName').value.trim();
+            const email = document.getElementById('reviewEmail').value.trim();
+            const text = document.getElementById('reviewText').value.trim();
+
+            if (!name || !email || !text) {
+                showToast('❌ الرجاء ملء جميع الحقول', 'error');
+                return;
+            }
+
+            const newReview = {
+                name: name,
+                avatar: `https://ui-avatars.com/api/?name=${encodeURIComponent(name)}&background=1ABC9C&color=fff&size=50`,
+                stars: selectedStars,
+                text: text,
+                date: 'الآن',
+                role: 'مريض في العيادة',
+                response: ''
+            };
+
+            clinicData.reviews.unshift(newReview);
+            renderReviews('reviewsGrid', 3);
+            renderReviews('allReviewsGrid', 6);
+            showToast('✅ تم إضافة مراجعتك بنجاح! شكراً لك.', 'success');
+            form.reset();
+            stars.forEach(s => {
+                s.textContent = parseInt(s.dataset.value) <= 5 ? '★' : '☆';
+                s.style.color = '#D4AF37';
+            });
+            selectedStars = 5;
+            starsInput.value = 5;
+        });
+    }
+
+    // ---------- Contact Form ----------
+    function setupContactForm() {
+        const form = document.getElementById('contactForm');
+        if (!form) return;
+
+        form.addEventListener('submit', function(e) {
+            e.preventDefault();
+            showToast('✅ تم إرسال رسالتك! سنرد عليك في أقرب وقت.', 'success');
+            form.reset();
+        });
+    }
+
+    // ---------- FAQ ----------
+    function toggleFaq(button) {
+        const answer = button.nextElementSibling;
+        const isOpen = answer.classList.contains('open');
+
+        document.querySelectorAll('.faq-answer.open').forEach(el => {
+            if (el !== answer) {
+                el.classList.remove('open');
+                el.previousElementSibling.classList.remove('active');
+            }
+        });
+
+        if (isOpen) {
+            answer.classList.remove('open');
+            button.classList.remove('active');
+        } else {
+            answer.classList.add('open');
+            button.classList.add('active');
+        }
+    }
+
+    // ---------- إعدادات أخرى ----------
+    function setupDarkMode() {
+        const toggle = document.getElementById('darkToggle');
+        const icon = toggle.querySelector('i');
+
+        if (localStorage.getItem('darkMode') === 'true') {
+            document.body.classList.add('dark-mode');
+            icon.className = 'fas fa-sun';
+        }
+
+        toggle.addEventListener('click', function() {
+            document.body.classList.toggle('dark-mode');
+            const isDark = document.body.classList.contains('dark-mode');
+            icon.className = isDark ? 'fas fa-sun' : 'fas fa-moon';
+            localStorage.setItem('darkMode', isDark);
+        });
+    }
+
+    function setupNavigation() {
+        document.querySelectorAll('[data-page]').forEach(el => {
+            el.addEventListener('click', function(e) {
+                e.preventDefault();
+                const page = this.dataset.page;
+                if (page) navigateTo(page);
+            });
+        });
+
+        document.querySelectorAll('.footer .page-link').forEach(el => {
+            el.addEventListener('click', function(e) {
+                e.preventDefault();
+                const page = this.dataset.page;
+                if (page) navigateTo(page);
+            });
+        });
+
+        const savedPage = localStorage.getItem('currentPage');
+        if (savedPage && savedPage !== 'home') navigateTo(savedPage);
+    }
+
+    function setupHamburger() {
+        const hamburger = document.getElementById('hamburger');
+        const navLinks = document.getElementById('navLinks');
+
+        hamburger.addEventListener('click', function() {
+            this.classList.toggle('active');
+            navLinks.classList.toggle('open');
+        });
+
+        navLinks.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', function() {
+                navLinks.classList.remove('open');
+                hamburger.classList.remove('active');
+            });
+        });
+    }
+
+    function setupScrollTop() {
+        const btn = document.getElementById('scrollTopBtn');
+        window.addEventListener('scroll', function() {
+            btn.classList.toggle('visible', window.scrollY > 400);
+        });
+
+        btn.addEventListener('click', function() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+    }
+
+    function setupNavbarScroll() {
+        const navbar = document.getElementById('navbar');
+        window.addEventListener('scroll', function() {
+            navbar.classList.toggle('scrolled', window.scrollY > 80);
+        });
+    }
+
+    function setupScrollAnimations() {
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) entry.target.classList.add('visible');
+            });
+        }, { threshold: 0.12, rootMargin: '0px 0px -30px 0px' });
+
+        document.querySelectorAll('.animate-on-scroll').forEach(el => observer.observe(el));
+    }
+
+    // ---------- التهيئة ----------
+    function init() {
+        updateClinicStatus();
+        renderReviews('reviewsGrid', 3);
+        renderReviews('allReviewsGrid', 6);
+        renderServices();
+        setupBooking();
+        setupReviewForm();
+        setupContactForm();
+        setupNavigation();
+        setupHamburger();
+        setupScrollTop();
+        setupDarkMode();
+        setupNavbarScroll();
+        setupScrollAnimations();
+        setTimeout(animateCounters, 600);
+        setInterval(updateClinicStatus, 60000);
+
+        console.log('🦷 Grow Dental Center - نموذج تجريبي');
+        console.log('📞 للتواصل: +966 507 652 943');
+        console.log('✅ تم تعطيل View Source بنجاح');
+    }
+
+    document.addEventListener('DOMContentLoaded', init);
+
+    // ============================================================
+    // 7. منع استخدام Ctrl+A لتحديد الكل
+    // ============================================================
+    document.addEventListener('keydown', function(e) {
+        if (e.ctrlKey && (e.key === 'a' || e.key === 'A')) {
+            e.preventDefault();
+            return false;
+        }
+    });
+
+    // ============================================================
+    // 8. منع فتح أدوات المطور عبر النقر المزدوج
+    // ============================================================
+    document.addEventListener('dblclick', function(e) {
+        e.preventDefault();
+        showToast('❌ عرض الكود غير متاح في هذا النموذج التجريبي', 'error');
+        return false;
+    });
+
+    // ============================================================
+    // 9. منع استخدام زر Print Screen
+    // ============================================================
+    document.addEventListener('keyup', function(e) {
+        if (e.key === 'PrintScreen') {
+            e.preventDefault();
+            showToast('❌ لقطة الشاشة غير متاحة في هذا النموذج التجريبي', 'error');
+            return false;
+        }
+    });
+
+    console.log('🔒 جميع إجراءات حماية الكود مفعلة');
+</script>
+
+</body>
+</html>
